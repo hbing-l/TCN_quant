@@ -1,0 +1,1428 @@
+# TCN参数 [10, 10, 20, 20, 10] 随机选取200支股票用于训练 t+20 open - t+1 open lr=0.001 5train+1valid+1test滚动训练
+2023-12-11 16:53:14,563 - root - INFO - reading data ... ...
+2023-12-11 16:54:11,313 - root - INFO - loading train/valid/test set ... ... 
+2023-12-11 16:54:22,897 - root - INFO - Train Epoch: 0 [0/1156 (0%)]	Loss: 0.426080
+2023-12-11 16:55:15,494 - root - INFO - Train Epoch: 0 [100/1156 (9%)]	Loss: 0.185864
+2023-12-11 16:56:07,070 - root - INFO - Train Epoch: 0 [200/1156 (17%)]	Loss: 0.175653
+2023-12-11 16:56:59,022 - root - INFO - Train Epoch: 0 [300/1156 (26%)]	Loss: 0.170459
+2023-12-11 16:57:50,981 - root - INFO - Train Epoch: 0 [400/1156 (35%)]	Loss: 0.304578
+2023-12-11 16:58:43,089 - root - INFO - Train Epoch: 0 [500/1156 (43%)]	Loss: 0.129225
+2023-12-11 16:59:34,976 - root - INFO - Train Epoch: 0 [600/1156 (52%)]	Loss: 0.018717
+2023-12-11 17:00:26,877 - root - INFO - Train Epoch: 0 [700/1156 (61%)]	Loss: -0.057676
+2023-12-11 17:01:19,876 - root - INFO - Train Epoch: 0 [800/1156 (69%)]	Loss: 0.125258
+2023-12-11 17:02:12,703 - root - INFO - Train Epoch: 0 [900/1156 (78%)]	Loss: 0.094179
+2023-12-11 17:03:05,576 - root - INFO - Train Epoch: 0 [1000/1156 (87%)]	Loss: 0.263635
+2023-12-11 17:03:58,376 - root - INFO - Train Epoch: 0 [1100/1156 (95%)]	Loss: 0.155515
+2023-12-11 17:04:27,395 - root - INFO - Training loss in iteration 0 epoch 0 is 0.12381651653395805
+2023-12-11 17:24:09,542 - root - INFO - Iteration 0 Epoch 0 Mean IC: 0.04347477213200402, Mean Rank IC: 0.03376524172315595, Eval loss 0.8903656283847424
+2023-12-11 17:42:24,698 - root - INFO - saving best validation model ... ...
+2023-12-11 17:42:24,711 - root - INFO - Iteration 0 Epoch 0 Test Mean IC: 0.08301954647396795, Test Mean Rank IC: 0.07266018711011081, Test Eval loss 0.8666573402616713
+2023-12-11 17:42:34,333 - root - INFO - Train Epoch: 1 [0/1156 (0%)]	Loss: 0.080146
+2023-12-11 17:43:29,823 - root - INFO - Train Epoch: 1 [100/1156 (9%)]	Loss: -0.173806
+2023-12-11 17:44:23,114 - root - INFO - Train Epoch: 1 [200/1156 (17%)]	Loss: 0.077823
+2023-12-11 17:45:16,587 - root - INFO - Train Epoch: 1 [300/1156 (26%)]	Loss: 0.236135
+2023-12-11 17:46:11,081 - root - INFO - Train Epoch: 1 [400/1156 (35%)]	Loss: 0.288118
+2023-12-11 17:47:05,391 - root - INFO - Train Epoch: 1 [500/1156 (43%)]	Loss: 0.074639
+2023-12-11 17:48:01,660 - root - INFO - Train Epoch: 1 [600/1156 (52%)]	Loss: 0.266653
+2023-12-11 17:48:56,770 - root - INFO - Train Epoch: 1 [700/1156 (61%)]	Loss: 0.090391
+2023-12-11 17:49:50,632 - root - INFO - Train Epoch: 1 [800/1156 (69%)]	Loss: 0.131947
+2023-12-11 17:50:44,130 - root - INFO - Train Epoch: 1 [900/1156 (78%)]	Loss: -0.010638
+2023-12-11 17:51:36,382 - root - INFO - Train Epoch: 1 [1000/1156 (87%)]	Loss: 0.203576
+2023-12-11 17:52:28,370 - root - INFO - Train Epoch: 1 [1100/1156 (95%)]	Loss: 0.128628
+2023-12-11 17:52:58,353 - root - INFO - Training loss in iteration 0 epoch 1 is 0.09888454403560673
+2023-12-11 18:11:42,604 - root - INFO - Iteration 0 Epoch 1 Mean IC: 0.046463678430270855, Mean Rank IC: 0.03616902608447743, Eval loss 0.9027352706223977
+2023-12-11 18:30:24,372 - root - INFO - saving best validation model ... ...
+2023-12-11 18:30:24,380 - root - INFO - Iteration 0 Epoch 1 Test Mean IC: 0.08787718361631656, Test Mean Rank IC: 0.08001585649067743, Test Eval loss 0.850509340233273
+2023-12-11 18:30:31,475 - root - INFO - Train Epoch: 2 [0/1156 (0%)]	Loss: -0.072465
+2023-12-11 18:31:29,028 - root - INFO - Train Epoch: 2 [100/1156 (9%)]	Loss: -0.017300
+2023-12-11 18:32:24,163 - root - INFO - Train Epoch: 2 [200/1156 (17%)]	Loss: -0.033647
+2023-12-11 18:33:18,911 - root - INFO - Train Epoch: 2 [300/1156 (26%)]	Loss: 0.190612
+2023-12-11 18:34:13,609 - root - INFO - Train Epoch: 2 [400/1156 (35%)]	Loss: 0.313968
+2023-12-11 18:35:07,988 - root - INFO - Train Epoch: 2 [500/1156 (43%)]	Loss: 0.240392
+2023-12-11 18:36:02,487 - root - INFO - Train Epoch: 2 [600/1156 (52%)]	Loss: 0.344089
+2023-12-11 18:36:57,750 - root - INFO - Train Epoch: 2 [700/1156 (61%)]	Loss: -0.025609
+2023-12-11 18:37:52,353 - root - INFO - Train Epoch: 2 [800/1156 (69%)]	Loss: -0.144406
+2023-12-11 18:38:45,907 - root - INFO - Train Epoch: 2 [900/1156 (78%)]	Loss: -0.034534
+2023-12-11 18:39:37,687 - root - INFO - Train Epoch: 2 [1000/1156 (87%)]	Loss: 0.200540
+2023-12-11 18:40:29,950 - root - INFO - Train Epoch: 2 [1100/1156 (95%)]	Loss: 0.049768
+2023-12-11 18:40:58,703 - root - INFO - Training loss in iteration 0 epoch 2 is 0.07765679104595243
+2023-12-11 18:59:32,721 - root - INFO - Iteration 0 Epoch 2 Mean IC: 0.04317503775462132, Mean Rank IC: 0.03357121147191643, Eval loss 0.9102593998448187
+2023-12-11 18:59:41,550 - root - INFO - Train Epoch: 3 [0/1156 (0%)]	Loss: 0.086261
+2023-12-11 19:00:35,938 - root - INFO - Train Epoch: 3 [100/1156 (9%)]	Loss: 0.167013
+2023-12-11 19:01:29,437 - root - INFO - Train Epoch: 3 [200/1156 (17%)]	Loss: 0.116417
+2023-12-11 19:02:22,556 - root - INFO - Train Epoch: 3 [300/1156 (26%)]	Loss: 0.051035
+2023-12-11 19:03:14,543 - root - INFO - Train Epoch: 3 [400/1156 (35%)]	Loss: 0.257199
+2023-12-11 19:04:05,924 - root - INFO - Train Epoch: 3 [500/1156 (43%)]	Loss: 0.267966
+2023-12-11 19:04:59,796 - root - INFO - Train Epoch: 3 [600/1156 (52%)]	Loss: -0.263842
+2023-12-11 19:05:51,949 - root - INFO - Train Epoch: 3 [700/1156 (61%)]	Loss: 0.000281
+2023-12-11 19:06:43,996 - root - INFO - Train Epoch: 3 [800/1156 (69%)]	Loss: 0.107304
+2023-12-11 19:07:36,391 - root - INFO - Train Epoch: 3 [900/1156 (78%)]	Loss: 0.089147
+2023-12-11 19:08:29,782 - root - INFO - Train Epoch: 3 [1000/1156 (87%)]	Loss: -0.057899
+2023-12-11 19:09:22,800 - root - INFO - Train Epoch: 3 [1100/1156 (95%)]	Loss: -0.180498
+2023-12-11 19:09:52,659 - root - INFO - Training loss in iteration 0 epoch 3 is 0.06864013344977554
+2023-12-11 19:28:42,586 - root - INFO - Iteration 0 Epoch 3 Mean IC: 0.04055017860510441, Mean Rank IC: 0.02899396190069569, Eval loss 0.8941310242194087
+2023-12-11 19:28:50,314 - root - INFO - Train Epoch: 4 [0/1156 (0%)]	Loss: -0.095253
+2023-12-11 19:29:46,116 - root - INFO - Train Epoch: 4 [100/1156 (9%)]	Loss: -0.063019
+2023-12-11 19:30:38,197 - root - INFO - Train Epoch: 4 [200/1156 (17%)]	Loss: 0.130582
+2023-12-11 19:31:31,421 - root - INFO - Train Epoch: 4 [300/1156 (26%)]	Loss: 0.115338
+2023-12-11 19:32:24,716 - root - INFO - Train Epoch: 4 [400/1156 (35%)]	Loss: 0.217939
+2023-12-11 19:33:19,201 - root - INFO - Train Epoch: 4 [500/1156 (43%)]	Loss: 0.292950
+2023-12-11 19:34:12,505 - root - INFO - Train Epoch: 4 [600/1156 (52%)]	Loss: 0.155082
+2023-12-11 19:35:05,661 - root - INFO - Train Epoch: 4 [700/1156 (61%)]	Loss: 0.239629
+2023-12-11 19:35:58,826 - root - INFO - Train Epoch: 4 [800/1156 (69%)]	Loss: -0.071046
+2023-12-11 19:36:50,751 - root - INFO - Train Epoch: 4 [900/1156 (78%)]	Loss: 0.044458
+2023-12-11 19:37:43,248 - root - INFO - Train Epoch: 4 [1000/1156 (87%)]	Loss: 0.068148
+2023-12-11 19:38:36,274 - root - INFO - Train Epoch: 4 [1100/1156 (95%)]	Loss: 0.170879
+2023-12-11 19:39:07,869 - root - INFO - Training loss in iteration 0 epoch 4 is 0.0709376017720951
+2023-12-11 19:58:38,786 - root - INFO - Iteration 0 Epoch 4 Mean IC: 0.04812467767378086, Mean Rank IC: 0.03574194974449909, Eval loss 0.8961684090249679
+2023-12-11 20:16:40,826 - root - INFO - saving best validation model ... ...
+2023-12-11 20:16:40,834 - root - INFO - Iteration 0 Epoch 4 Test Mean IC: 0.08587611471121717, Test Mean Rank IC: 0.08052098161418042, Test Eval loss 0.8446839351124233
+2023-12-11 20:16:50,500 - root - INFO - Train Epoch: 5 [0/1156 (0%)]	Loss: 0.290769
+2023-12-11 20:17:49,070 - root - INFO - Train Epoch: 5 [100/1156 (9%)]	Loss: 0.102645
+2023-12-11 20:18:44,433 - root - INFO - Train Epoch: 5 [200/1156 (17%)]	Loss: 0.010205
+2023-12-11 20:19:39,539 - root - INFO - Train Epoch: 5 [300/1156 (26%)]	Loss: 0.027784
+2023-12-11 20:20:34,227 - root - INFO - Train Epoch: 5 [400/1156 (35%)]	Loss: 0.021155
+2023-12-11 20:21:28,685 - root - INFO - Train Epoch: 5 [500/1156 (43%)]	Loss: 0.068440
+2023-12-11 20:22:23,407 - root - INFO - Train Epoch: 5 [600/1156 (52%)]	Loss: 0.009077
+2023-12-11 20:23:18,053 - root - INFO - Train Epoch: 5 [700/1156 (61%)]	Loss: 0.159673
+2023-12-11 20:24:13,020 - root - INFO - Train Epoch: 5 [800/1156 (69%)]	Loss: 0.169576
+2023-12-11 20:25:08,249 - root - INFO - Train Epoch: 5 [900/1156 (78%)]	Loss: 0.113800
+2023-12-11 20:26:03,120 - root - INFO - Train Epoch: 5 [1000/1156 (87%)]	Loss: 0.040469
+2023-12-11 20:26:57,255 - root - INFO - Train Epoch: 5 [1100/1156 (95%)]	Loss: 0.272714
+2023-12-11 20:27:27,703 - root - INFO - Training loss in iteration 0 epoch 5 is 0.0712649696812704
+2023-12-11 20:46:32,156 - root - INFO - Iteration 0 Epoch 5 Mean IC: 0.04811257793433072, Mean Rank IC: 0.03696665636551402, Eval loss 0.8750971280226186
+2023-12-11 20:46:41,793 - root - INFO - Train Epoch: 6 [0/1156 (0%)]	Loss: 0.158885
+2023-12-11 20:47:34,518 - root - INFO - Train Epoch: 6 [100/1156 (9%)]	Loss: 0.036723
+2023-12-11 20:48:26,014 - root - INFO - Train Epoch: 6 [200/1156 (17%)]	Loss: -0.012853
+2023-12-11 20:49:19,201 - root - INFO - Train Epoch: 6 [300/1156 (26%)]	Loss: 0.256776
+2023-12-11 20:50:11,682 - root - INFO - Train Epoch: 6 [400/1156 (35%)]	Loss: -0.050288
+2023-12-11 20:51:04,041 - root - INFO - Train Epoch: 6 [500/1156 (43%)]	Loss: 0.192873
+2023-12-11 20:51:56,782 - root - INFO - Train Epoch: 6 [600/1156 (52%)]	Loss: -0.102218
+2023-12-11 20:52:48,709 - root - INFO - Train Epoch: 6 [700/1156 (61%)]	Loss: -0.042264
+2023-12-11 20:53:41,054 - root - INFO - Train Epoch: 6 [800/1156 (69%)]	Loss: 0.020155
+2023-12-11 20:54:33,938 - root - INFO - Train Epoch: 6 [900/1156 (78%)]	Loss: 0.199544
+2023-12-11 20:55:28,253 - root - INFO - Train Epoch: 6 [1000/1156 (87%)]	Loss: 0.153770
+2023-12-11 20:56:20,838 - root - INFO - Train Epoch: 6 [1100/1156 (95%)]	Loss: -0.078472
+2023-12-11 20:56:50,698 - root - INFO - Training loss in iteration 0 epoch 6 is 0.0674956611786231
+2023-12-11 21:16:29,482 - root - INFO - Iteration 0 Epoch 6 Mean IC: 0.04811570988752793, Mean Rank IC: 0.03729462035454246, Eval loss 0.8754385821208233
+2023-12-11 21:16:41,542 - root - INFO - Train Epoch: 7 [0/1156 (0%)]	Loss: 0.167746
+2023-12-11 21:17:45,043 - root - INFO - Train Epoch: 7 [100/1156 (9%)]	Loss: 0.037033
+2023-12-11 21:18:43,236 - root - INFO - Train Epoch: 7 [200/1156 (17%)]	Loss: 0.096897
+2023-12-11 21:19:42,348 - root - INFO - Train Epoch: 7 [300/1156 (26%)]	Loss: 0.039456
+2023-12-11 21:20:39,946 - root - INFO - Train Epoch: 7 [400/1156 (35%)]	Loss: 0.159545
+2023-12-11 21:21:39,472 - root - INFO - Train Epoch: 7 [500/1156 (43%)]	Loss: -0.300287
+2023-12-11 21:22:34,736 - root - INFO - Train Epoch: 7 [600/1156 (52%)]	Loss: 0.190546
+2023-12-11 21:23:26,364 - root - INFO - Train Epoch: 7 [700/1156 (61%)]	Loss: 0.077887
+2023-12-11 21:24:17,616 - root - INFO - Train Epoch: 7 [800/1156 (69%)]	Loss: -0.105399
+2023-12-11 21:25:09,921 - root - INFO - Train Epoch: 7 [900/1156 (78%)]	Loss: -0.036565
+2023-12-11 21:26:02,215 - root - INFO - Train Epoch: 7 [1000/1156 (87%)]	Loss: -0.144587
+2023-12-11 21:26:53,382 - root - INFO - Train Epoch: 7 [1100/1156 (95%)]	Loss: 0.035145
+2023-12-11 21:27:22,708 - root - INFO - Training loss in iteration 0 epoch 7 is 0.0680926507177753
+2023-12-11 21:45:55,155 - root - INFO - Iteration 0 Epoch 7 Mean IC: 0.04654175238566426, Mean Rank IC: 0.03407443810387382, Eval loss 0.8609182815842268
+2023-12-11 21:46:02,369 - root - INFO - Train Epoch: 8 [0/1156 (0%)]	Loss: -0.262436
+2023-12-11 21:46:54,499 - root - INFO - Train Epoch: 8 [100/1156 (9%)]	Loss: 0.116141
+2023-12-11 21:47:46,082 - root - INFO - Train Epoch: 8 [200/1156 (17%)]	Loss: -0.019869
+2023-12-11 21:48:39,294 - root - INFO - Train Epoch: 8 [300/1156 (26%)]	Loss: 0.228627
+2023-12-11 21:49:30,129 - root - INFO - Train Epoch: 8 [400/1156 (35%)]	Loss: 0.014009
+2023-12-11 21:50:21,682 - root - INFO - Train Epoch: 8 [500/1156 (43%)]	Loss: -0.231353
+2023-12-11 21:51:13,688 - root - INFO - Train Epoch: 8 [600/1156 (52%)]	Loss: -0.029069
+2023-12-11 21:52:05,761 - root - INFO - Train Epoch: 8 [700/1156 (61%)]	Loss: -0.128479
+2023-12-11 21:52:56,814 - root - INFO - Train Epoch: 8 [800/1156 (69%)]	Loss: 0.166188
+2023-12-11 21:53:48,803 - root - INFO - Train Epoch: 8 [900/1156 (78%)]	Loss: 0.080384
+2023-12-11 21:54:41,885 - root - INFO - Train Epoch: 8 [1000/1156 (87%)]	Loss: -0.375493
+2023-12-11 21:55:34,458 - root - INFO - Train Epoch: 8 [1100/1156 (95%)]	Loss: 0.024153
+2023-12-11 21:56:03,167 - root - INFO - Training loss in iteration 0 epoch 8 is 0.06581559644489965
+2023-12-11 22:14:45,824 - root - INFO - Iteration 0 Epoch 8 Mean IC: 0.04549400075609642, Mean Rank IC: 0.0331958103980018, Eval loss 0.8214509967996293
+2023-12-11 22:14:54,878 - root - INFO - Train Epoch: 9 [0/1156 (0%)]	Loss: 0.150745
+2023-12-11 22:15:59,609 - root - INFO - Train Epoch: 9 [100/1156 (9%)]	Loss: 0.255410
+2023-12-11 22:16:57,011 - root - INFO - Train Epoch: 9 [200/1156 (17%)]	Loss: -0.089346
+2023-12-11 22:17:55,880 - root - INFO - Train Epoch: 9 [300/1156 (26%)]	Loss: 0.258572
+2023-12-11 22:18:54,884 - root - INFO - Train Epoch: 9 [400/1156 (35%)]	Loss: 0.062853
+2023-12-11 22:19:53,872 - root - INFO - Train Epoch: 9 [500/1156 (43%)]	Loss: -0.029553
+2023-12-11 22:20:52,916 - root - INFO - Train Epoch: 9 [600/1156 (52%)]	Loss: 0.223938
+2023-12-11 22:21:47,902 - root - INFO - Train Epoch: 9 [700/1156 (61%)]	Loss: 0.021520
+2023-12-11 22:22:41,874 - root - INFO - Train Epoch: 9 [800/1156 (69%)]	Loss: 0.192903
+2023-12-11 22:23:35,982 - root - INFO - Train Epoch: 9 [900/1156 (78%)]	Loss: 0.146774
+2023-12-11 22:24:30,690 - root - INFO - Train Epoch: 9 [1000/1156 (87%)]	Loss: 0.113643
+2023-12-11 22:25:24,678 - root - INFO - Train Epoch: 9 [1100/1156 (95%)]	Loss: 0.168476
+2023-12-11 22:25:54,789 - root - INFO - Training loss in iteration 0 epoch 9 is 0.06257406495846679
+2023-12-11 22:44:50,446 - root - INFO - Iteration 0 Epoch 9 Mean IC: 0.04968848416851755, Mean Rank IC: 0.03905065344258196, Eval loss 0.8675797911000853
+2023-12-11 23:03:02,938 - root - INFO - saving best validation model ... ...
+2023-12-11 23:03:02,951 - root - INFO - Iteration 0 Epoch 9 Test Mean IC: 0.08535547112732375, Test Mean Rank IC: 0.08035203725950042, Test Eval loss 0.8219969023598565
+2023-12-11 23:03:02,951 - root - INFO - loading train/valid/test set ... ... 
+2023-12-11 23:03:12,878 - root - INFO - Train Epoch: 0 [0/1148 (0%)]	Loss: 0.170433
+2023-12-11 23:04:13,752 - root - INFO - Train Epoch: 0 [100/1148 (9%)]	Loss: -0.048432
+2023-12-11 23:05:08,318 - root - INFO - Train Epoch: 0 [200/1148 (17%)]	Loss: 0.147968
+2023-12-11 23:06:02,316 - root - INFO - Train Epoch: 0 [300/1148 (26%)]	Loss: -0.058269
+2023-12-11 23:06:57,100 - root - INFO - Train Epoch: 0 [400/1148 (35%)]	Loss: 0.214798
+2023-12-11 23:07:51,055 - root - INFO - Train Epoch: 0 [500/1148 (44%)]	Loss: 0.012981
+2023-12-11 23:08:45,665 - root - INFO - Train Epoch: 0 [600/1148 (52%)]	Loss: -0.050659
+2023-12-11 23:09:39,660 - root - INFO - Train Epoch: 0 [700/1148 (61%)]	Loss: -0.238692
+2023-12-11 23:10:34,615 - root - INFO - Train Epoch: 0 [800/1148 (70%)]	Loss: -0.037172
+2023-12-11 23:11:28,932 - root - INFO - Train Epoch: 0 [900/1148 (78%)]	Loss: 0.161695
+2023-12-11 23:12:25,214 - root - INFO - Train Epoch: 0 [1000/1148 (87%)]	Loss: 0.108535
+2023-12-11 23:13:19,877 - root - INFO - Train Epoch: 0 [1100/1148 (96%)]	Loss: 0.102875
+2023-12-11 23:13:45,608 - root - INFO - Training loss in iteration 1 epoch 0 is 0.0794151568921601
+2023-12-11 23:33:30,110 - root - INFO - Iteration 1 Epoch 0 Mean IC: 0.07940293333032264, Mean Rank IC: 0.07606790227463887, Eval loss 0.7883068171082711
+2023-12-11 23:53:01,937 - root - INFO - saving best validation model ... ...
+2023-12-11 23:53:01,949 - root - INFO - Iteration 1 Epoch 0 Test Mean IC: 0.14660459261403957, Test Mean Rank IC: 0.14512568448013294, Test Eval loss 0.6915958731302193
+2023-12-11 23:53:10,168 - root - INFO - Train Epoch: 1 [0/1148 (0%)]	Loss: 0.097242
+2023-12-11 23:54:04,167 - root - INFO - Train Epoch: 1 [100/1148 (9%)]	Loss: 0.182967
+2023-12-11 23:54:57,171 - root - INFO - Train Epoch: 1 [200/1148 (17%)]	Loss: -0.028380
+2023-12-11 23:55:49,772 - root - INFO - Train Epoch: 1 [300/1148 (26%)]	Loss: -0.171683
+2023-12-11 23:56:42,902 - root - INFO - Train Epoch: 1 [400/1148 (35%)]	Loss: 0.151012
+2023-12-11 23:57:35,446 - root - INFO - Train Epoch: 1 [500/1148 (44%)]	Loss: 0.327134
+2023-12-11 23:58:28,292 - root - INFO - Train Epoch: 1 [600/1148 (52%)]	Loss: 0.274300
+2023-12-11 23:59:21,465 - root - INFO - Train Epoch: 1 [700/1148 (61%)]	Loss: -0.080164
+2023-12-12 00:00:14,880 - root - INFO - Train Epoch: 1 [800/1148 (70%)]	Loss: -0.062645
+2023-12-12 00:01:07,767 - root - INFO - Train Epoch: 1 [900/1148 (78%)]	Loss: 0.132014
+2023-12-12 00:02:00,235 - root - INFO - Train Epoch: 1 [1000/1148 (87%)]	Loss: 0.209972
+2023-12-12 00:02:54,129 - root - INFO - Train Epoch: 1 [1100/1148 (96%)]	Loss: 0.050424
+2023-12-12 00:03:19,466 - root - INFO - Training loss in iteration 1 epoch 1 is 0.0725040315465437
+2023-12-12 00:23:18,625 - root - INFO - Iteration 1 Epoch 1 Mean IC: 0.08520093527117659, Mean Rank IC: 0.08139799623150255, Eval loss 0.828394029456742
+2023-12-12 00:42:37,435 - root - INFO - saving best validation model ... ...
+2023-12-12 00:42:37,443 - root - INFO - Iteration 1 Epoch 1 Test Mean IC: 0.1522043191501195, Test Mean Rank IC: 0.1544475538343509, Test Eval loss 0.7331896335152643
+2023-12-12 00:42:43,568 - root - INFO - Train Epoch: 2 [0/1148 (0%)]	Loss: 0.083459
+2023-12-12 00:43:36,319 - root - INFO - Train Epoch: 2 [100/1148 (9%)]	Loss: -0.107211
+2023-12-12 00:44:27,263 - root - INFO - Train Epoch: 2 [200/1148 (17%)]	Loss: 0.155937
+2023-12-12 00:45:18,717 - root - INFO - Train Epoch: 2 [300/1148 (26%)]	Loss: 0.097395
+2023-12-12 00:46:10,564 - root - INFO - Train Epoch: 2 [400/1148 (35%)]	Loss: 0.002830
+2023-12-12 00:47:02,096 - root - INFO - Train Epoch: 2 [500/1148 (44%)]	Loss: -0.074248
+2023-12-12 00:47:53,874 - root - INFO - Train Epoch: 2 [600/1148 (52%)]	Loss: 0.031295
+2023-12-12 00:48:44,785 - root - INFO - Train Epoch: 2 [700/1148 (61%)]	Loss: -0.246549
+2023-12-12 00:49:37,800 - root - INFO - Train Epoch: 2 [800/1148 (70%)]	Loss: -0.007364
+2023-12-12 00:50:31,196 - root - INFO - Train Epoch: 2 [900/1148 (78%)]	Loss: 0.127510
+2023-12-12 00:51:23,825 - root - INFO - Train Epoch: 2 [1000/1148 (87%)]	Loss: 0.055635
+2023-12-12 00:52:16,109 - root - INFO - Train Epoch: 2 [1100/1148 (96%)]	Loss: 0.075356
+2023-12-12 00:52:41,115 - root - INFO - Training loss in iteration 1 epoch 2 is 0.0717222476475434
+2023-12-12 01:12:10,017 - root - INFO - Iteration 1 Epoch 2 Mean IC: 0.09538712041970457, Mean Rank IC: 0.08994047422845829, Eval loss 0.7870068388325827
+2023-12-12 01:31:16,475 - root - INFO - saving best validation model ... ...
+2023-12-12 01:31:16,485 - root - INFO - Iteration 1 Epoch 2 Test Mean IC: 0.15547462774247833, Test Mean Rank IC: 0.15967518720052404, Test Eval loss 0.7042097630245345
+2023-12-12 01:31:26,284 - root - INFO - Train Epoch: 3 [0/1148 (0%)]	Loss: 0.220761
+2023-12-12 01:32:21,886 - root - INFO - Train Epoch: 3 [100/1148 (9%)]	Loss: 0.026649
+2023-12-12 01:33:17,284 - root - INFO - Train Epoch: 3 [200/1148 (17%)]	Loss: -0.217617
+2023-12-12 01:34:12,580 - root - INFO - Train Epoch: 3 [300/1148 (26%)]	Loss: 0.277897
+2023-12-12 01:35:06,661 - root - INFO - Train Epoch: 3 [400/1148 (35%)]	Loss: 0.065061
+2023-12-12 01:36:00,954 - root - INFO - Train Epoch: 3 [500/1148 (44%)]	Loss: 0.173507
+2023-12-12 01:36:55,319 - root - INFO - Train Epoch: 3 [600/1148 (52%)]	Loss: 0.251108
+2023-12-12 01:37:49,661 - root - INFO - Train Epoch: 3 [700/1148 (61%)]	Loss: -0.198276
+2023-12-12 01:38:44,283 - root - INFO - Train Epoch: 3 [800/1148 (70%)]	Loss: -0.133849
+2023-12-12 01:39:38,609 - root - INFO - Train Epoch: 3 [900/1148 (78%)]	Loss: 0.068279
+2023-12-12 01:40:32,257 - root - INFO - Train Epoch: 3 [1000/1148 (87%)]	Loss: -0.070192
+2023-12-12 01:41:27,046 - root - INFO - Train Epoch: 3 [1100/1148 (96%)]	Loss: -0.151919
+2023-12-12 01:41:52,605 - root - INFO - Training loss in iteration 1 epoch 3 is 0.0732501561166102
+2023-12-12 02:01:23,413 - root - INFO - Iteration 1 Epoch 3 Mean IC: 0.0845441701337315, Mean Rank IC: 0.07765825335120506, Eval loss 0.8084238458652886
+2023-12-12 02:01:30,916 - root - INFO - Train Epoch: 4 [0/1148 (0%)]	Loss: 0.175587
+2023-12-12 02:02:27,215 - root - INFO - Train Epoch: 4 [100/1148 (9%)]	Loss: -0.004432
+2023-12-12 02:03:19,727 - root - INFO - Train Epoch: 4 [200/1148 (17%)]	Loss: -0.028948
+2023-12-12 02:04:12,652 - root - INFO - Train Epoch: 4 [300/1148 (26%)]	Loss: -0.042361
+2023-12-12 02:05:05,979 - root - INFO - Train Epoch: 4 [400/1148 (35%)]	Loss: 0.008093
+2023-12-12 02:05:59,537 - root - INFO - Train Epoch: 4 [500/1148 (44%)]	Loss: 0.032581
+2023-12-12 02:06:52,622 - root - INFO - Train Epoch: 4 [600/1148 (52%)]	Loss: 0.041669
+2023-12-12 02:07:45,625 - root - INFO - Train Epoch: 4 [700/1148 (61%)]	Loss: 0.060144
+2023-12-12 02:08:38,323 - root - INFO - Train Epoch: 4 [800/1148 (70%)]	Loss: 0.085370
+2023-12-12 02:09:30,962 - root - INFO - Train Epoch: 4 [900/1148 (78%)]	Loss: -0.074906
+2023-12-12 02:10:24,844 - root - INFO - Train Epoch: 4 [1000/1148 (87%)]	Loss: 0.115295
+2023-12-12 02:11:19,960 - root - INFO - Train Epoch: 4 [1100/1148 (96%)]	Loss: 0.023695
+2023-12-12 02:11:45,413 - root - INFO - Training loss in iteration 1 epoch 4 is 0.06979055581971327
+2023-12-12 02:32:03,994 - root - INFO - Iteration 1 Epoch 4 Mean IC: 0.07937903098419917, Mean Rank IC: 0.07662472143610084, Eval loss 0.8268543726327467
+2023-12-12 02:32:12,154 - root - INFO - Train Epoch: 5 [0/1148 (0%)]	Loss: 0.194809
+2023-12-12 02:33:04,783 - root - INFO - Train Epoch: 5 [100/1148 (9%)]	Loss: -0.019837
+2023-12-12 02:33:57,766 - root - INFO - Train Epoch: 5 [200/1148 (17%)]	Loss: 0.086760
+2023-12-12 02:34:49,901 - root - INFO - Train Epoch: 5 [300/1148 (26%)]	Loss: 0.192858
+2023-12-12 02:35:41,433 - root - INFO - Train Epoch: 5 [400/1148 (35%)]	Loss: -0.345974
+2023-12-12 02:36:33,617 - root - INFO - Train Epoch: 5 [500/1148 (44%)]	Loss: 0.065903
+2023-12-12 02:37:25,145 - root - INFO - Train Epoch: 5 [600/1148 (52%)]	Loss: 0.050667
+2023-12-12 02:38:16,330 - root - INFO - Train Epoch: 5 [700/1148 (61%)]	Loss: 0.206876
+2023-12-12 02:39:08,990 - root - INFO - Train Epoch: 5 [800/1148 (70%)]	Loss: 0.102136
+2023-12-12 02:40:01,070 - root - INFO - Train Epoch: 5 [900/1148 (78%)]	Loss: 0.332688
+2023-12-12 02:40:53,561 - root - INFO - Train Epoch: 5 [1000/1148 (87%)]	Loss: 0.050539
+2023-12-12 02:41:45,342 - root - INFO - Train Epoch: 5 [1100/1148 (96%)]	Loss: -0.274606
+2023-12-12 02:42:10,354 - root - INFO - Training loss in iteration 1 epoch 5 is 0.07140875591503826
+2023-12-12 03:01:36,545 - root - INFO - Iteration 1 Epoch 5 Mean IC: 0.08736055081197042, Mean Rank IC: 0.08093748752892549, Eval loss 0.8369865677794631
+2023-12-12 03:01:44,440 - root - INFO - Train Epoch: 6 [0/1148 (0%)]	Loss: 0.112254
+2023-12-12 03:02:38,362 - root - INFO - Train Epoch: 6 [100/1148 (9%)]	Loss: 0.178702
+2023-12-12 03:03:31,383 - root - INFO - Train Epoch: 6 [200/1148 (17%)]	Loss: 0.113225
+2023-12-12 03:04:24,769 - root - INFO - Train Epoch: 6 [300/1148 (26%)]	Loss: 0.335277
+2023-12-12 03:05:17,532 - root - INFO - Train Epoch: 6 [400/1148 (35%)]	Loss: 0.026725
+2023-12-12 03:06:11,348 - root - INFO - Train Epoch: 6 [500/1148 (44%)]	Loss: -0.196901
+2023-12-12 03:07:04,512 - root - INFO - Train Epoch: 6 [600/1148 (52%)]	Loss: 0.014801
+2023-12-12 03:07:56,437 - root - INFO - Train Epoch: 6 [700/1148 (61%)]	Loss: 0.136465
+2023-12-12 03:08:47,253 - root - INFO - Train Epoch: 6 [800/1148 (70%)]	Loss: 0.021504
+2023-12-12 03:09:39,180 - root - INFO - Train Epoch: 6 [900/1148 (78%)]	Loss: 0.155624
+2023-12-12 03:10:31,353 - root - INFO - Train Epoch: 6 [1000/1148 (87%)]	Loss: 0.101450
+2023-12-12 03:11:23,110 - root - INFO - Train Epoch: 6 [1100/1148 (96%)]	Loss: 0.193293
+2023-12-12 03:11:47,806 - root - INFO - Training loss in iteration 1 epoch 6 is 0.0720321055930043
+2023-12-12 03:31:40,664 - root - INFO - Iteration 1 Epoch 6 Mean IC: 0.08161881628389261, Mean Rank IC: 0.07741469240186698, Eval loss 0.8159211481104092
+2023-12-12 03:31:49,458 - root - INFO - Train Epoch: 7 [0/1148 (0%)]	Loss: 0.067975
+2023-12-12 03:32:43,485 - root - INFO - Train Epoch: 7 [100/1148 (9%)]	Loss: -0.111494
+2023-12-12 03:33:38,096 - root - INFO - Train Epoch: 7 [200/1148 (17%)]	Loss: 0.124727
+2023-12-12 03:34:32,196 - root - INFO - Train Epoch: 7 [300/1148 (26%)]	Loss: 0.180236
+2023-12-12 03:35:27,105 - root - INFO - Train Epoch: 7 [400/1148 (35%)]	Loss: 0.043089
+2023-12-12 03:36:21,860 - root - INFO - Train Epoch: 7 [500/1148 (44%)]	Loss: 0.115393
+2023-12-12 03:37:17,603 - root - INFO - Train Epoch: 7 [600/1148 (52%)]	Loss: 0.186939
+2023-12-12 03:38:12,046 - root - INFO - Train Epoch: 7 [700/1148 (61%)]	Loss: 0.190211
+2023-12-12 03:39:07,530 - root - INFO - Train Epoch: 7 [800/1148 (70%)]	Loss: 0.229052
+2023-12-12 03:40:02,092 - root - INFO - Train Epoch: 7 [900/1148 (78%)]	Loss: 0.076530
+2023-12-12 03:40:58,032 - root - INFO - Train Epoch: 7 [1000/1148 (87%)]	Loss: -0.079687
+2023-12-12 03:41:53,936 - root - INFO - Train Epoch: 7 [1100/1148 (96%)]	Loss: 0.266916
+2023-12-12 03:42:20,354 - root - INFO - Training loss in iteration 1 epoch 7 is 0.06915939882890895
+2023-12-12 04:01:50,106 - root - INFO - Iteration 1 Epoch 7 Mean IC: 0.09015807540450549, Mean Rank IC: 0.08131938495227438, Eval loss 0.8181539081797308
+2023-12-12 04:01:59,240 - root - INFO - Train Epoch: 8 [0/1148 (0%)]	Loss: 0.199544
+2023-12-12 04:02:53,182 - root - INFO - Train Epoch: 8 [100/1148 (9%)]	Loss: 0.212214
+2023-12-12 04:03:46,074 - root - INFO - Train Epoch: 8 [200/1148 (17%)]	Loss: 0.133742
+2023-12-12 04:04:37,785 - root - INFO - Train Epoch: 8 [300/1148 (26%)]	Loss: -0.030608
+2023-12-12 04:05:29,162 - root - INFO - Train Epoch: 8 [400/1148 (35%)]	Loss: 0.218846
+2023-12-12 04:06:21,060 - root - INFO - Train Epoch: 8 [500/1148 (44%)]	Loss: -0.168233
+2023-12-12 04:07:12,327 - root - INFO - Train Epoch: 8 [600/1148 (52%)]	Loss: 0.149525
+2023-12-12 04:08:04,046 - root - INFO - Train Epoch: 8 [700/1148 (61%)]	Loss: 0.005573
+2023-12-12 04:08:56,271 - root - INFO - Train Epoch: 8 [800/1148 (70%)]	Loss: 0.169454
+2023-12-12 04:09:48,163 - root - INFO - Train Epoch: 8 [900/1148 (78%)]	Loss: 0.255870
+2023-12-12 04:10:40,295 - root - INFO - Train Epoch: 8 [1000/1148 (87%)]	Loss: 0.132459
+2023-12-12 04:11:31,830 - root - INFO - Train Epoch: 8 [1100/1148 (96%)]	Loss: -0.273837
+2023-12-12 04:11:56,538 - root - INFO - Training loss in iteration 1 epoch 8 is 0.07100093076557233
+2023-12-12 04:31:16,157 - root - INFO - Iteration 1 Epoch 8 Mean IC: 0.09178932673691022, Mean Rank IC: 0.08203496430663164, Eval loss 0.8068055550662838
+2023-12-12 04:31:22,053 - root - INFO - Train Epoch: 9 [0/1148 (0%)]	Loss: 0.028524
+2023-12-12 04:32:15,633 - root - INFO - Train Epoch: 9 [100/1148 (9%)]	Loss: -0.166352
+2023-12-12 04:33:06,646 - root - INFO - Train Epoch: 9 [200/1148 (17%)]	Loss: 0.003014
+2023-12-12 04:33:57,725 - root - INFO - Train Epoch: 9 [300/1148 (26%)]	Loss: 0.039637
+2023-12-12 04:34:49,813 - root - INFO - Train Epoch: 9 [400/1148 (35%)]	Loss: 0.117845
+2023-12-12 04:35:42,987 - root - INFO - Train Epoch: 9 [500/1148 (44%)]	Loss: -0.231312
+2023-12-12 04:36:35,902 - root - INFO - Train Epoch: 9 [600/1148 (52%)]	Loss: 0.178691
+2023-12-12 04:37:29,019 - root - INFO - Train Epoch: 9 [700/1148 (61%)]	Loss: 0.230317
+2023-12-12 04:38:21,830 - root - INFO - Train Epoch: 9 [800/1148 (70%)]	Loss: 0.136350
+2023-12-12 04:39:16,734 - root - INFO - Train Epoch: 9 [900/1148 (78%)]	Loss: 0.251318
+2023-12-12 04:40:12,133 - root - INFO - Train Epoch: 9 [1000/1148 (87%)]	Loss: -0.133933
+2023-12-12 04:41:08,069 - root - INFO - Train Epoch: 9 [1100/1148 (96%)]	Loss: -0.187742
+2023-12-12 04:41:34,666 - root - INFO - Training loss in iteration 1 epoch 9 is 0.07122308481809154
+2023-12-12 05:02:07,176 - root - INFO - Iteration 1 Epoch 9 Mean IC: 0.09326282623699125, Mean Rank IC: 0.08614794504139762, Eval loss 0.7901347300227808
+2023-12-12 05:02:07,177 - root - INFO - loading train/valid/test set ... ... 
+2023-12-12 05:02:14,340 - root - INFO - Train Epoch: 0 [0/1149 (0%)]	Loss: -0.089978
+2023-12-12 05:03:07,886 - root - INFO - Train Epoch: 0 [100/1149 (9%)]	Loss: 0.081761
+2023-12-12 05:04:00,739 - root - INFO - Train Epoch: 0 [200/1149 (17%)]	Loss: -0.115188
+2023-12-12 05:04:53,077 - root - INFO - Train Epoch: 0 [300/1149 (26%)]	Loss: 0.173997
+2023-12-12 05:05:45,087 - root - INFO - Train Epoch: 0 [400/1149 (35%)]	Loss: -0.354987
+2023-12-12 05:06:36,841 - root - INFO - Train Epoch: 0 [500/1149 (44%)]	Loss: 0.173858
+2023-12-12 05:07:28,867 - root - INFO - Train Epoch: 0 [600/1149 (52%)]	Loss: 0.160158
+2023-12-12 05:08:20,468 - root - INFO - Train Epoch: 0 [700/1149 (61%)]	Loss: -0.106413
+2023-12-12 05:09:10,917 - root - INFO - Train Epoch: 0 [800/1149 (70%)]	Loss: 0.237605
+2023-12-12 05:10:02,901 - root - INFO - Train Epoch: 0 [900/1149 (78%)]	Loss: 0.144082
+2023-12-12 05:10:54,753 - root - INFO - Train Epoch: 0 [1000/1149 (87%)]	Loss: -0.073523
+2023-12-12 05:11:46,154 - root - INFO - Train Epoch: 0 [1100/1149 (96%)]	Loss: 0.052179
+2023-12-12 05:12:11,227 - root - INFO - Training loss in iteration 2 epoch 0 is 0.07042065080582732
+2023-12-12 05:32:56,253 - root - INFO - Iteration 2 Epoch 0 Mean IC: 0.16067582602730998, Mean Rank IC: 0.1684375497613667, Eval loss 0.6338570894765072
+2023-12-12 05:54:01,538 - root - INFO - saving best validation model ... ...
+2023-12-12 05:54:01,550 - root - INFO - Iteration 2 Epoch 0 Test Mean IC: 0.11904214941325465, Test Mean Rank IC: 0.11378722374502104, Test Eval loss 0.7496809439201441
+2023-12-12 05:54:10,858 - root - INFO - Train Epoch: 1 [0/1149 (0%)]	Loss: 0.148852
+2023-12-12 05:55:04,871 - root - INFO - Train Epoch: 1 [100/1149 (9%)]	Loss: 0.407084
+2023-12-12 05:55:57,734 - root - INFO - Train Epoch: 1 [200/1149 (17%)]	Loss: -0.088121
+2023-12-12 05:56:51,038 - root - INFO - Train Epoch: 1 [300/1149 (26%)]	Loss: -0.143041
+2023-12-12 05:57:44,255 - root - INFO - Train Epoch: 1 [400/1149 (35%)]	Loss: -0.055475
+2023-12-12 05:58:36,113 - root - INFO - Train Epoch: 1 [500/1149 (44%)]	Loss: 0.002629
+2023-12-12 05:59:27,878 - root - INFO - Train Epoch: 1 [600/1149 (52%)]	Loss: 0.050301
+2023-12-12 06:00:19,729 - root - INFO - Train Epoch: 1 [700/1149 (61%)]	Loss: -0.029875
+2023-12-12 06:01:12,038 - root - INFO - Train Epoch: 1 [800/1149 (70%)]	Loss: -0.020313
+2023-12-12 06:02:03,564 - root - INFO - Train Epoch: 1 [900/1149 (78%)]	Loss: -0.046755
+2023-12-12 06:02:55,133 - root - INFO - Train Epoch: 1 [1000/1149 (87%)]	Loss: 0.118986
+2023-12-12 06:03:48,000 - root - INFO - Train Epoch: 1 [1100/1149 (96%)]	Loss: 0.017479
+2023-12-12 06:04:12,775 - root - INFO - Training loss in iteration 2 epoch 1 is 0.06806247068603108
+2023-12-12 06:25:06,098 - root - INFO - Iteration 2 Epoch 1 Mean IC: 0.1600818551755243, Mean Rank IC: 0.16636324087466775, Eval loss 0.6832269480238196
+2023-12-12 06:25:14,137 - root - INFO - Train Epoch: 2 [0/1149 (0%)]	Loss: -0.176088
+2023-12-12 06:26:11,134 - root - INFO - Train Epoch: 2 [100/1149 (9%)]	Loss: -0.093028
+2023-12-12 06:27:05,352 - root - INFO - Train Epoch: 2 [200/1149 (17%)]	Loss: -0.087607
+2023-12-12 06:27:59,178 - root - INFO - Train Epoch: 2 [300/1149 (26%)]	Loss: 0.282453
+2023-12-12 06:28:54,027 - root - INFO - Train Epoch: 2 [400/1149 (35%)]	Loss: -0.134704
+2023-12-12 06:29:49,421 - root - INFO - Train Epoch: 2 [500/1149 (44%)]	Loss: 0.100902
+2023-12-12 06:30:44,665 - root - INFO - Train Epoch: 2 [600/1149 (52%)]	Loss: 0.158587
+2023-12-12 06:31:39,232 - root - INFO - Train Epoch: 2 [700/1149 (61%)]	Loss: 0.074326
+2023-12-12 06:32:34,057 - root - INFO - Train Epoch: 2 [800/1149 (70%)]	Loss: 0.089220
+2023-12-12 06:33:28,904 - root - INFO - Train Epoch: 2 [900/1149 (78%)]	Loss: 0.198115
+2023-12-12 06:34:24,544 - root - INFO - Train Epoch: 2 [1000/1149 (87%)]	Loss: 0.044510
+2023-12-12 06:35:20,352 - root - INFO - Train Epoch: 2 [1100/1149 (96%)]	Loss: 0.004535
+2023-12-12 06:35:47,296 - root - INFO - Training loss in iteration 2 epoch 2 is 0.06750004841022848
+2023-12-12 06:56:45,647 - root - INFO - Iteration 2 Epoch 2 Mean IC: 0.15682952410965986, Mean Rank IC: 0.16411203097029145, Eval loss 0.7150309777162114
+2023-12-12 06:56:53,177 - root - INFO - Train Epoch: 3 [0/1149 (0%)]	Loss: 0.113357
+2023-12-12 06:57:45,000 - root - INFO - Train Epoch: 3 [100/1149 (9%)]	Loss: 0.069510
+2023-12-12 06:58:37,194 - root - INFO - Train Epoch: 3 [200/1149 (17%)]	Loss: -0.121764
+2023-12-12 06:59:28,401 - root - INFO - Train Epoch: 3 [300/1149 (26%)]	Loss: 0.037160
+2023-12-12 07:00:20,598 - root - INFO - Train Epoch: 3 [400/1149 (35%)]	Loss: 0.218139
+2023-12-12 07:01:12,002 - root - INFO - Train Epoch: 3 [500/1149 (44%)]	Loss: -0.341759
+2023-12-12 07:02:04,123 - root - INFO - Train Epoch: 3 [600/1149 (52%)]	Loss: 0.050587
+2023-12-12 07:02:55,616 - root - INFO - Train Epoch: 3 [700/1149 (61%)]	Loss: 0.033376
+2023-12-12 07:03:47,058 - root - INFO - Train Epoch: 3 [800/1149 (70%)]	Loss: -0.061299
+2023-12-12 07:04:37,727 - root - INFO - Train Epoch: 3 [900/1149 (78%)]	Loss: -0.147040
+2023-12-12 07:05:28,423 - root - INFO - Train Epoch: 3 [1000/1149 (87%)]	Loss: 0.073214
+2023-12-12 07:06:19,286 - root - INFO - Train Epoch: 3 [1100/1149 (96%)]	Loss: 0.150524
+2023-12-12 07:06:44,141 - root - INFO - Training loss in iteration 2 epoch 3 is 0.06716858602742509
+2023-12-12 07:28:24,978 - root - INFO - Iteration 2 Epoch 3 Mean IC: 0.15518703594913308, Mean Rank IC: 0.16062982232008344, Eval loss 0.6956253145806125
+2023-12-12 07:28:37,639 - root - INFO - Train Epoch: 4 [0/1149 (0%)]	Loss: -0.013279
+2023-12-12 07:29:35,432 - root - INFO - Train Epoch: 4 [100/1149 (9%)]	Loss: -0.121470
+2023-12-12 07:30:28,676 - root - INFO - Train Epoch: 4 [200/1149 (17%)]	Loss: -0.042626
+2023-12-12 07:31:21,426 - root - INFO - Train Epoch: 4 [300/1149 (26%)]	Loss: -0.137566
+2023-12-12 07:32:14,590 - root - INFO - Train Epoch: 4 [400/1149 (35%)]	Loss: -0.046780
+2023-12-12 07:33:07,241 - root - INFO - Train Epoch: 4 [500/1149 (44%)]	Loss: -0.075998
+2023-12-12 07:33:59,962 - root - INFO - Train Epoch: 4 [600/1149 (52%)]	Loss: -0.019977
+2023-12-12 07:34:52,507 - root - INFO - Train Epoch: 4 [700/1149 (61%)]	Loss: 0.068979
+2023-12-12 07:35:46,282 - root - INFO - Train Epoch: 4 [800/1149 (70%)]	Loss: 0.033885
+2023-12-12 07:36:39,298 - root - INFO - Train Epoch: 4 [900/1149 (78%)]	Loss: -0.260082
+2023-12-12 07:37:32,140 - root - INFO - Train Epoch: 4 [1000/1149 (87%)]	Loss: 0.171214
+2023-12-12 07:38:24,904 - root - INFO - Train Epoch: 4 [1100/1149 (96%)]	Loss: 0.016159
+2023-12-12 07:38:50,629 - root - INFO - Training loss in iteration 2 epoch 4 is 0.06899773337926109
+2023-12-12 07:59:34,175 - root - INFO - Iteration 2 Epoch 4 Mean IC: 0.15487875335336448, Mean Rank IC: 0.16460818663663154, Eval loss 0.7039506349895821
+2023-12-12 07:59:42,593 - root - INFO - Train Epoch: 5 [0/1149 (0%)]	Loss: 0.366097
+2023-12-12 08:00:39,517 - root - INFO - Train Epoch: 5 [100/1149 (9%)]	Loss: -0.004243
+2023-12-12 08:01:34,380 - root - INFO - Train Epoch: 5 [200/1149 (17%)]	Loss: -0.146852
+2023-12-12 08:02:28,820 - root - INFO - Train Epoch: 5 [300/1149 (26%)]	Loss: 0.322993
+2023-12-12 08:03:22,872 - root - INFO - Train Epoch: 5 [400/1149 (35%)]	Loss: -0.152357
+2023-12-12 08:04:17,557 - root - INFO - Train Epoch: 5 [500/1149 (44%)]	Loss: -0.137030
+2023-12-12 08:05:12,113 - root - INFO - Train Epoch: 5 [600/1149 (52%)]	Loss: 0.135876
+2023-12-12 08:06:07,441 - root - INFO - Train Epoch: 5 [700/1149 (61%)]	Loss: 0.342065
+2023-12-12 08:07:02,460 - root - INFO - Train Epoch: 5 [800/1149 (70%)]	Loss: 0.134124
+2023-12-12 08:07:56,651 - root - INFO - Train Epoch: 5 [900/1149 (78%)]	Loss: -0.164666
+2023-12-12 08:08:50,433 - root - INFO - Train Epoch: 5 [1000/1149 (87%)]	Loss: -0.025031
+2023-12-12 08:09:44,741 - root - INFO - Train Epoch: 5 [1100/1149 (96%)]	Loss: 0.036161
+2023-12-12 08:10:10,606 - root - INFO - Training loss in iteration 2 epoch 5 is 0.07171606487741254
+2023-12-12 08:31:12,917 - root - INFO - Iteration 2 Epoch 5 Mean IC: 0.1520315525613412, Mean Rank IC: 0.15659128575915943, Eval loss 0.7086479796982202
+2023-12-12 08:31:22,570 - root - INFO - Train Epoch: 6 [0/1149 (0%)]	Loss: 0.170680
+2023-12-12 08:32:16,692 - root - INFO - Train Epoch: 6 [100/1149 (9%)]	Loss: -0.149960
+2023-12-12 08:33:09,722 - root - INFO - Train Epoch: 6 [200/1149 (17%)]	Loss: 0.023253
+2023-12-12 08:34:02,475 - root - INFO - Train Epoch: 6 [300/1149 (26%)]	Loss: 0.099941
+2023-12-12 08:34:56,406 - root - INFO - Train Epoch: 6 [400/1149 (35%)]	Loss: 0.099267
+2023-12-12 08:35:49,264 - root - INFO - Train Epoch: 6 [500/1149 (44%)]	Loss: 0.058260
+2023-12-12 08:36:42,316 - root - INFO - Train Epoch: 6 [600/1149 (52%)]	Loss: 0.059832
+2023-12-12 08:37:34,901 - root - INFO - Train Epoch: 6 [700/1149 (61%)]	Loss: 0.116044
+2023-12-12 08:38:27,992 - root - INFO - Train Epoch: 6 [800/1149 (70%)]	Loss: 0.078950
+2023-12-12 08:39:20,571 - root - INFO - Train Epoch: 6 [900/1149 (78%)]	Loss: 0.015802
+2023-12-12 08:40:13,614 - root - INFO - Train Epoch: 6 [1000/1149 (87%)]	Loss: -0.097456
+2023-12-12 08:41:06,258 - root - INFO - Train Epoch: 6 [1100/1149 (96%)]	Loss: 0.046480
+2023-12-12 08:41:31,829 - root - INFO - Training loss in iteration 2 epoch 6 is 0.06555718411120048
+2023-12-12 09:02:55,384 - root - INFO - Iteration 2 Epoch 6 Mean IC: 0.15876865782107027, Mean Rank IC: 0.1639260565757095, Eval loss 0.6708033994817343
+2023-12-12 09:03:04,752 - root - INFO - Train Epoch: 7 [0/1149 (0%)]	Loss: 0.106252
+2023-12-12 09:03:59,714 - root - INFO - Train Epoch: 7 [100/1149 (9%)]	Loss: -0.115976
+2023-12-12 09:04:53,649 - root - INFO - Train Epoch: 7 [200/1149 (17%)]	Loss: 0.047829
+2023-12-12 09:05:47,906 - root - INFO - Train Epoch: 7 [300/1149 (26%)]	Loss: 0.186002
+2023-12-12 09:06:42,602 - root - INFO - Train Epoch: 7 [400/1149 (35%)]	Loss: -0.218151
+2023-12-12 09:07:36,978 - root - INFO - Train Epoch: 7 [500/1149 (44%)]	Loss: 0.049708
+2023-12-12 09:08:32,065 - root - INFO - Train Epoch: 7 [600/1149 (52%)]	Loss: 0.173321
+2023-12-12 09:09:26,066 - root - INFO - Train Epoch: 7 [700/1149 (61%)]	Loss: -0.022265
+2023-12-12 09:10:18,418 - root - INFO - Train Epoch: 7 [800/1149 (70%)]	Loss: 0.040988
+2023-12-12 09:11:09,999 - root - INFO - Train Epoch: 7 [900/1149 (78%)]	Loss: 0.202570
+2023-12-12 09:12:02,007 - root - INFO - Train Epoch: 7 [1000/1149 (87%)]	Loss: -0.019646
+2023-12-12 09:12:53,502 - root - INFO - Train Epoch: 7 [1100/1149 (96%)]	Loss: -0.048266
+2023-12-12 09:13:18,448 - root - INFO - Training loss in iteration 2 epoch 7 is 0.06742506719367
+2023-12-12 09:33:53,896 - root - INFO - Iteration 2 Epoch 7 Mean IC: 0.15210688610792114, Mean Rank IC: 0.15582045115345372, Eval loss 0.7236560600214317
+2023-12-12 09:34:03,264 - root - INFO - Train Epoch: 8 [0/1149 (0%)]	Loss: 0.070356
+2023-12-12 09:34:58,442 - root - INFO - Train Epoch: 8 [100/1149 (9%)]	Loss: -0.066670
+2023-12-12 09:35:52,052 - root - INFO - Train Epoch: 8 [200/1149 (17%)]	Loss: -0.067466
+2023-12-12 09:36:45,196 - root - INFO - Train Epoch: 8 [300/1149 (26%)]	Loss: 0.056720
+2023-12-12 09:37:38,463 - root - INFO - Train Epoch: 8 [400/1149 (35%)]	Loss: 0.082268
+2023-12-12 09:38:33,513 - root - INFO - Train Epoch: 8 [500/1149 (44%)]	Loss: 0.025516
+2023-12-12 09:39:29,018 - root - INFO - Train Epoch: 8 [600/1149 (52%)]	Loss: 0.235779
+2023-12-12 09:40:24,794 - root - INFO - Train Epoch: 8 [700/1149 (61%)]	Loss: 0.242033
+2023-12-12 09:41:19,790 - root - INFO - Train Epoch: 8 [800/1149 (70%)]	Loss: 0.142216
+2023-12-12 09:42:15,846 - root - INFO - Train Epoch: 8 [900/1149 (78%)]	Loss: 0.019659
+2023-12-12 09:43:11,318 - root - INFO - Train Epoch: 8 [1000/1149 (87%)]	Loss: 0.051911
+2023-12-12 09:44:06,349 - root - INFO - Train Epoch: 8 [1100/1149 (96%)]	Loss: 0.108415
+2023-12-12 09:44:32,426 - root - INFO - Training loss in iteration 2 epoch 8 is 0.0647468220562495
+2023-12-12 10:05:48,404 - root - INFO - Iteration 2 Epoch 8 Mean IC: 0.15449690324522472, Mean Rank IC: 0.1566888256884489, Eval loss 0.6763471303904642
+2023-12-12 10:05:56,196 - root - INFO - Train Epoch: 9 [0/1149 (0%)]	Loss: -0.066400
+2023-12-12 10:06:48,637 - root - INFO - Train Epoch: 9 [100/1149 (9%)]	Loss: 0.256467
+2023-12-12 10:07:40,515 - root - INFO - Train Epoch: 9 [200/1149 (17%)]	Loss: 0.316032
+2023-12-12 10:08:32,426 - root - INFO - Train Epoch: 9 [300/1149 (26%)]	Loss: 0.085349
+2023-12-12 10:09:24,680 - root - INFO - Train Epoch: 9 [400/1149 (35%)]	Loss: 0.051851
+2023-12-12 10:10:16,245 - root - INFO - Train Epoch: 9 [500/1149 (44%)]	Loss: 0.240850
+2023-12-12 10:11:08,561 - root - INFO - Train Epoch: 9 [600/1149 (52%)]	Loss: 0.073475
+2023-12-12 10:12:01,291 - root - INFO - Train Epoch: 9 [700/1149 (61%)]	Loss: 0.250730
+2023-12-12 10:12:51,628 - root - INFO - Train Epoch: 9 [800/1149 (70%)]	Loss: 0.220197
+2023-12-12 10:13:43,437 - root - INFO - Train Epoch: 9 [900/1149 (78%)]	Loss: -0.166110
+2023-12-12 10:14:34,945 - root - INFO - Train Epoch: 9 [1000/1149 (87%)]	Loss: 0.066199
+2023-12-12 10:15:26,754 - root - INFO - Train Epoch: 9 [1100/1149 (96%)]	Loss: 0.035259
+2023-12-12 10:15:52,790 - root - INFO - Training loss in iteration 2 epoch 9 is 0.06581921378771464
+2023-12-12 10:37:06,156 - root - INFO - Iteration 2 Epoch 9 Mean IC: 0.1573532667298721, Mean Rank IC: 0.16549316660443691, Eval loss 0.6338229479848362
+2023-12-12 10:37:06,156 - root - INFO - loading train/valid/test set ... ... 
+2023-12-12 10:37:16,652 - root - INFO - Train Epoch: 0 [0/1151 (0%)]	Loss: -0.015901
+2023-12-12 10:38:17,151 - root - INFO - Train Epoch: 0 [100/1151 (9%)]	Loss: -0.063837
+2023-12-12 10:39:12,746 - root - INFO - Train Epoch: 0 [200/1151 (17%)]	Loss: 0.235557
+2023-12-12 10:40:08,281 - root - INFO - Train Epoch: 0 [300/1151 (26%)]	Loss: -0.119581
+2023-12-12 10:41:03,673 - root - INFO - Train Epoch: 0 [400/1151 (35%)]	Loss: 0.050149
+2023-12-12 10:41:57,675 - root - INFO - Train Epoch: 0 [500/1151 (43%)]	Loss: 0.264713
+2023-12-12 10:42:51,617 - root - INFO - Train Epoch: 0 [600/1151 (52%)]	Loss: 0.149482
+2023-12-12 10:43:45,818 - root - INFO - Train Epoch: 0 [700/1151 (61%)]	Loss: 0.021665
+2023-12-12 10:44:39,038 - root - INFO - Train Epoch: 0 [800/1151 (70%)]	Loss: 0.185865
+2023-12-12 10:45:33,248 - root - INFO - Train Epoch: 0 [900/1151 (78%)]	Loss: 0.318922
+2023-12-12 10:46:28,480 - root - INFO - Train Epoch: 0 [1000/1151 (87%)]	Loss: 0.025806
+2023-12-12 10:47:23,035 - root - INFO - Train Epoch: 0 [1100/1151 (96%)]	Loss: 0.156129
+2023-12-12 10:47:50,146 - root - INFO - Training loss in iteration 3 epoch 0 is 0.0532098080118152
+2023-12-12 11:09:55,754 - root - INFO - Iteration 3 Epoch 0 Mean IC: 0.11866613177937593, Mean Rank IC: 0.10719755158168512, Eval loss 0.7057423900629654
+2023-12-12 11:10:02,988 - root - INFO - Train Epoch: 1 [0/1151 (0%)]	Loss: 0.058476
+2023-12-12 11:10:57,353 - root - INFO - Train Epoch: 1 [100/1151 (9%)]	Loss: 0.093866
+2023-12-12 11:11:50,899 - root - INFO - Train Epoch: 1 [200/1151 (17%)]	Loss: 0.083640
+2023-12-12 11:12:44,443 - root - INFO - Train Epoch: 1 [300/1151 (26%)]	Loss: 0.111040
+2023-12-12 11:13:38,114 - root - INFO - Train Epoch: 1 [400/1151 (35%)]	Loss: 0.172965
+2023-12-12 11:14:33,904 - root - INFO - Train Epoch: 1 [500/1151 (43%)]	Loss: -0.215109
+2023-12-12 11:15:30,764 - root - INFO - Train Epoch: 1 [600/1151 (52%)]	Loss: 0.120749
+2023-12-12 11:16:27,586 - root - INFO - Train Epoch: 1 [700/1151 (61%)]	Loss: -0.016924
+2023-12-12 11:17:24,420 - root - INFO - Train Epoch: 1 [800/1151 (70%)]	Loss: -0.043220
+2023-12-12 11:18:20,909 - root - INFO - Train Epoch: 1 [900/1151 (78%)]	Loss: -0.079579
+2023-12-12 11:19:19,313 - root - INFO - Train Epoch: 1 [1000/1151 (87%)]	Loss: 0.120251
+2023-12-12 11:20:17,311 - root - INFO - Train Epoch: 1 [1100/1151 (96%)]	Loss: -0.005908
+2023-12-12 11:20:46,159 - root - INFO - Training loss in iteration 3 epoch 1 is 0.05023903872244882
+2023-12-12 11:44:51,617 - root - INFO - Iteration 3 Epoch 1 Mean IC: 0.11698184281370037, Mean Rank IC: 0.10607178141393978, Eval loss 0.7215996078047596
+2023-12-12 11:44:59,378 - root - INFO - Train Epoch: 2 [0/1151 (0%)]	Loss: -0.019891
+2023-12-12 11:45:53,659 - root - INFO - Train Epoch: 2 [100/1151 (9%)]	Loss: 0.087793
+2023-12-12 11:46:47,431 - root - INFO - Train Epoch: 2 [200/1151 (17%)]	Loss: 0.028071
+2023-12-12 11:47:40,742 - root - INFO - Train Epoch: 2 [300/1151 (26%)]	Loss: -0.252133
+2023-12-12 11:48:35,248 - root - INFO - Train Epoch: 2 [400/1151 (35%)]	Loss: -0.078651
+2023-12-12 11:49:29,078 - root - INFO - Train Epoch: 2 [500/1151 (43%)]	Loss: 0.069566
+2023-12-12 11:50:23,174 - root - INFO - Train Epoch: 2 [600/1151 (52%)]	Loss: -0.021482
+2023-12-12 11:51:16,875 - root - INFO - Train Epoch: 2 [700/1151 (61%)]	Loss: 0.229572
+2023-12-12 11:52:10,784 - root - INFO - Train Epoch: 2 [800/1151 (70%)]	Loss: 0.167564
+2023-12-12 11:53:04,585 - root - INFO - Train Epoch: 2 [900/1151 (78%)]	Loss: -0.066958
+2023-12-12 11:53:58,901 - root - INFO - Train Epoch: 2 [1000/1151 (87%)]	Loss: 0.096310
+2023-12-12 11:54:52,512 - root - INFO - Train Epoch: 2 [1100/1151 (96%)]	Loss: -0.019089
+2023-12-12 11:55:19,334 - root - INFO - Training loss in iteration 3 epoch 2 is 0.052014923763730854
+2023-12-12 12:17:52,699 - root - INFO - Iteration 3 Epoch 2 Mean IC: 0.11005986724182444, Mean Rank IC: 0.10002088344839143, Eval loss 0.7571295345904397
+2023-12-12 12:18:03,740 - root - INFO - Train Epoch: 3 [0/1151 (0%)]	Loss: 0.257594
+2023-12-12 12:19:08,449 - root - INFO - Train Epoch: 3 [100/1151 (9%)]	Loss: 0.230415
+2023-12-12 12:20:06,171 - root - INFO - Train Epoch: 3 [200/1151 (17%)]	Loss: 0.151568
+2023-12-12 12:21:05,408 - root - INFO - Train Epoch: 3 [300/1151 (26%)]	Loss: 0.159570
+2023-12-12 12:22:04,369 - root - INFO - Train Epoch: 3 [400/1151 (35%)]	Loss: 0.207510
+2023-12-12 12:23:02,150 - root - INFO - Train Epoch: 3 [500/1151 (43%)]	Loss: 0.082788
+2023-12-12 12:24:00,229 - root - INFO - Train Epoch: 3 [600/1151 (52%)]	Loss: 0.292804
+2023-12-12 12:24:57,772 - root - INFO - Train Epoch: 3 [700/1151 (61%)]	Loss: -0.052353
+2023-12-12 12:25:56,117 - root - INFO - Train Epoch: 3 [800/1151 (70%)]	Loss: 0.100857
+2023-12-12 12:26:53,794 - root - INFO - Train Epoch: 3 [900/1151 (78%)]	Loss: 0.183479
+2023-12-12 12:27:51,720 - root - INFO - Train Epoch: 3 [1000/1151 (87%)]	Loss: 0.035715
+2023-12-12 12:28:49,513 - root - INFO - Train Epoch: 3 [1100/1151 (96%)]	Loss: 0.069941
+2023-12-12 12:29:18,426 - root - INFO - Training loss in iteration 3 epoch 3 is 0.05126140741137812
+2023-12-12 12:52:23,563 - root - INFO - Iteration 3 Epoch 3 Mean IC: 0.11829821936646381, Mean Rank IC: 0.10731752385403465, Eval loss 0.6793330857743982
+2023-12-12 12:52:32,386 - root - INFO - Train Epoch: 4 [0/1151 (0%)]	Loss: 0.180869
+2023-12-12 12:53:25,673 - root - INFO - Train Epoch: 4 [100/1151 (9%)]	Loss: 0.054509
+2023-12-12 12:54:19,711 - root - INFO - Train Epoch: 4 [200/1151 (17%)]	Loss: 0.216686
+2023-12-12 12:55:14,030 - root - INFO - Train Epoch: 4 [300/1151 (26%)]	Loss: 0.249390
+2023-12-12 12:56:07,460 - root - INFO - Train Epoch: 4 [400/1151 (35%)]	Loss: -0.012657
+2023-12-12 12:57:00,658 - root - INFO - Train Epoch: 4 [500/1151 (43%)]	Loss: -0.049422
+2023-12-12 12:57:54,144 - root - INFO - Train Epoch: 4 [600/1151 (52%)]	Loss: -0.167184
+2023-12-12 12:58:47,725 - root - INFO - Train Epoch: 4 [700/1151 (61%)]	Loss: 0.119089
+2023-12-12 12:59:41,155 - root - INFO - Train Epoch: 4 [800/1151 (70%)]	Loss: 0.064868
+2023-12-12 13:00:34,596 - root - INFO - Train Epoch: 4 [900/1151 (78%)]	Loss: 0.113579
+2023-12-12 13:01:28,549 - root - INFO - Train Epoch: 4 [1000/1151 (87%)]	Loss: -0.199706
+2023-12-12 13:02:23,020 - root - INFO - Train Epoch: 4 [1100/1151 (96%)]	Loss: -0.090705
+2023-12-12 13:02:50,061 - root - INFO - Training loss in iteration 3 epoch 4 is 0.05121684975462515
+2023-12-12 13:25:11,917 - root - INFO - Iteration 3 Epoch 4 Mean IC: 0.11767328991678727, Mean Rank IC: 0.10650294961633931, Eval loss 0.6672881119808213
+2023-12-12 13:25:22,796 - root - INFO - Train Epoch: 5 [0/1151 (0%)]	Loss: -0.186131
+2023-12-12 13:26:19,802 - root - INFO - Train Epoch: 5 [100/1151 (9%)]	Loss: 0.171435
+2023-12-12 13:27:16,790 - root - INFO - Train Epoch: 5 [200/1151 (17%)]	Loss: 0.207787
+2023-12-12 13:28:13,961 - root - INFO - Train Epoch: 5 [300/1151 (26%)]	Loss: -0.270301
+2023-12-12 13:29:10,667 - root - INFO - Train Epoch: 5 [400/1151 (35%)]	Loss: 0.095654
+2023-12-12 13:30:07,543 - root - INFO - Train Epoch: 5 [500/1151 (43%)]	Loss: 0.199680
+2023-12-12 13:31:03,913 - root - INFO - Train Epoch: 5 [600/1151 (52%)]	Loss: -0.049982
+2023-12-12 13:32:00,824 - root - INFO - Train Epoch: 5 [700/1151 (61%)]	Loss: 0.239503
+2023-12-12 13:32:58,052 - root - INFO - Train Epoch: 5 [800/1151 (70%)]	Loss: 0.085084
+2023-12-12 13:33:53,615 - root - INFO - Train Epoch: 5 [900/1151 (78%)]	Loss: 0.117542
+2023-12-12 13:34:48,498 - root - INFO - Train Epoch: 5 [1000/1151 (87%)]	Loss: 0.093091
+2023-12-12 13:35:45,103 - root - INFO - Train Epoch: 5 [1100/1151 (96%)]	Loss: -0.102314
+2023-12-12 13:36:13,677 - root - INFO - Training loss in iteration 3 epoch 5 is 0.049297840186402035
+2023-12-12 13:59:57,338 - root - INFO - Iteration 3 Epoch 5 Mean IC: 0.11623106811474246, Mean Rank IC: 0.10521348379743209, Eval loss 0.6330622983027677
+2023-12-12 14:00:05,367 - root - INFO - Train Epoch: 6 [0/1151 (0%)]	Loss: 0.140966
+2023-12-12 14:00:59,927 - root - INFO - Train Epoch: 6 [100/1151 (9%)]	Loss: -0.048729
+2023-12-12 14:01:53,105 - root - INFO - Train Epoch: 6 [200/1151 (17%)]	Loss: 0.230696
+2023-12-12 14:02:46,063 - root - INFO - Train Epoch: 6 [300/1151 (26%)]	Loss: 0.249617
+2023-12-12 14:03:39,083 - root - INFO - Train Epoch: 6 [400/1151 (35%)]	Loss: -0.033407
+2023-12-12 14:04:32,252 - root - INFO - Train Epoch: 6 [500/1151 (43%)]	Loss: -0.030636
+2023-12-12 14:05:24,976 - root - INFO - Train Epoch: 6 [600/1151 (52%)]	Loss: 0.060911
+2023-12-12 14:06:17,726 - root - INFO - Train Epoch: 6 [700/1151 (61%)]	Loss: 0.219375
+2023-12-12 14:07:11,635 - root - INFO - Train Epoch: 6 [800/1151 (70%)]	Loss: 0.134471
+2023-12-12 14:08:04,240 - root - INFO - Train Epoch: 6 [900/1151 (78%)]	Loss: -0.062938
+2023-12-12 14:08:56,808 - root - INFO - Train Epoch: 6 [1000/1151 (87%)]	Loss: 0.060484
+2023-12-12 14:09:49,517 - root - INFO - Train Epoch: 6 [1100/1151 (96%)]	Loss: 0.139976
+2023-12-12 14:10:15,933 - root - INFO - Training loss in iteration 3 epoch 6 is 0.052920173585000604
+2023-12-12 14:33:02,621 - root - INFO - Iteration 3 Epoch 6 Mean IC: 0.12070718081512957, Mean Rank IC: 0.10774307591663139, Eval loss 0.646314942934474
+2023-12-12 14:33:15,915 - root - INFO - Train Epoch: 7 [0/1151 (0%)]	Loss: 0.027315
+2023-12-12 14:34:16,848 - root - INFO - Train Epoch: 7 [100/1151 (9%)]	Loss: 0.170024
+2023-12-12 14:35:13,912 - root - INFO - Train Epoch: 7 [200/1151 (17%)]	Loss: -0.345311
+2023-12-12 14:36:10,429 - root - INFO - Train Epoch: 7 [300/1151 (26%)]	Loss: 0.093707
+2023-12-12 14:37:07,628 - root - INFO - Train Epoch: 7 [400/1151 (35%)]	Loss: -0.013764
+2023-12-12 14:38:04,879 - root - INFO - Train Epoch: 7 [500/1151 (43%)]	Loss: -0.413458
+2023-12-12 14:39:02,011 - root - INFO - Train Epoch: 7 [600/1151 (52%)]	Loss: 0.266377
+2023-12-12 14:39:59,299 - root - INFO - Train Epoch: 7 [700/1151 (61%)]	Loss: -0.037298
+2023-12-12 14:40:56,230 - root - INFO - Train Epoch: 7 [800/1151 (70%)]	Loss: -0.106050
+2023-12-12 14:41:53,161 - root - INFO - Train Epoch: 7 [900/1151 (78%)]	Loss: -0.135334
+2023-12-12 14:42:49,728 - root - INFO - Train Epoch: 7 [1000/1151 (87%)]	Loss: -0.202550
+2023-12-12 14:43:45,725 - root - INFO - Train Epoch: 7 [1100/1151 (96%)]	Loss: 0.150738
+2023-12-12 14:44:14,808 - root - INFO - Training loss in iteration 3 epoch 7 is 0.04885317646711417
+2023-12-12 15:06:53,498 - root - INFO - Iteration 3 Epoch 7 Mean IC: 0.11527858726859434, Mean Rank IC: 0.10403448525247484, Eval loss 0.6799081251269481
+2023-12-12 15:07:02,396 - root - INFO - Train Epoch: 8 [0/1151 (0%)]	Loss: -0.106107
+2023-12-12 15:07:56,032 - root - INFO - Train Epoch: 8 [100/1151 (9%)]	Loss: 0.085664
+2023-12-12 15:08:49,934 - root - INFO - Train Epoch: 8 [200/1151 (17%)]	Loss: 0.071730
+2023-12-12 15:09:43,503 - root - INFO - Train Epoch: 8 [300/1151 (26%)]	Loss: 0.123973
+2023-12-12 15:10:37,488 - root - INFO - Train Epoch: 8 [400/1151 (35%)]	Loss: -0.297435
+2023-12-12 15:11:31,405 - root - INFO - Train Epoch: 8 [500/1151 (43%)]	Loss: 0.062293
+2023-12-12 15:12:25,166 - root - INFO - Train Epoch: 8 [600/1151 (52%)]	Loss: -0.267736
+2023-12-12 15:13:18,610 - root - INFO - Train Epoch: 8 [700/1151 (61%)]	Loss: 0.130488
+2023-12-12 15:14:12,091 - root - INFO - Train Epoch: 8 [800/1151 (70%)]	Loss: 0.300586
+2023-12-12 15:15:05,744 - root - INFO - Train Epoch: 8 [900/1151 (78%)]	Loss: 0.117209
+2023-12-12 15:15:59,942 - root - INFO - Train Epoch: 8 [1000/1151 (87%)]	Loss: 0.012825
+2023-12-12 15:16:53,224 - root - INFO - Train Epoch: 8 [1100/1151 (96%)]	Loss: 0.137227
+2023-12-12 15:17:20,556 - root - INFO - Training loss in iteration 3 epoch 8 is 0.05338442912058246
+2023-12-12 15:40:24,296 - root - INFO - Iteration 3 Epoch 8 Mean IC: 0.1195213151770792, Mean Rank IC: 0.1083694949128749, Eval loss 0.6808204045061206
+2023-12-12 15:40:34,042 - root - INFO - Train Epoch: 9 [0/1151 (0%)]	Loss: 0.247683
+2023-12-12 15:41:31,780 - root - INFO - Train Epoch: 9 [100/1151 (9%)]	Loss: 0.033745
+2023-12-12 15:42:27,784 - root - INFO - Train Epoch: 9 [200/1151 (17%)]	Loss: -0.018361
+2023-12-12 15:43:24,629 - root - INFO - Train Epoch: 9 [300/1151 (26%)]	Loss: -0.019607
+2023-12-12 15:44:21,302 - root - INFO - Train Epoch: 9 [400/1151 (35%)]	Loss: -0.076979
+2023-12-12 15:45:18,020 - root - INFO - Train Epoch: 9 [500/1151 (43%)]	Loss: -0.062993
+2023-12-12 15:46:14,092 - root - INFO - Train Epoch: 9 [600/1151 (52%)]	Loss: 0.346065
+2023-12-12 15:47:08,616 - root - INFO - Train Epoch: 9 [700/1151 (61%)]	Loss: 0.182220
+2023-12-12 15:48:02,929 - root - INFO - Train Epoch: 9 [800/1151 (70%)]	Loss: 0.043767
+2023-12-12 15:48:56,269 - root - INFO - Train Epoch: 9 [900/1151 (78%)]	Loss: 0.153436
+2023-12-12 15:49:49,840 - root - INFO - Train Epoch: 9 [1000/1151 (87%)]	Loss: 0.044187
+2023-12-12 15:50:43,244 - root - INFO - Train Epoch: 9 [1100/1151 (96%)]	Loss: 0.163147
+2023-12-12 15:51:10,551 - root - INFO - Training loss in iteration 3 epoch 9 is 0.04737460947911911
+2023-12-12 16:14:20,759 - root - INFO - Iteration 3 Epoch 9 Mean IC: 0.11654083844697481, Mean Rank IC: 0.10499952026007346, Eval loss 0.6987800596923125
+2023-12-12 16:14:20,759 - root - INFO - loading train/valid/test set ... ... 
+2023-12-12 16:14:31,948 - root - INFO - Train Epoch: 0 [0/1151 (0%)]	Loss: -0.190160
+2023-12-12 16:15:29,875 - root - INFO - Train Epoch: 0 [100/1151 (9%)]	Loss: -0.148869
+2023-12-12 16:16:25,978 - root - INFO - Train Epoch: 0 [200/1151 (17%)]	Loss: 0.135892
+2023-12-12 16:17:22,335 - root - INFO - Train Epoch: 0 [300/1151 (26%)]	Loss: -0.087878
+2023-12-12 16:18:19,482 - root - INFO - Train Epoch: 0 [400/1151 (35%)]	Loss: -0.047628
+2023-12-12 16:19:15,600 - root - INFO - Train Epoch: 0 [500/1151 (43%)]	Loss: 0.044102
+2023-12-12 16:20:08,964 - root - INFO - Train Epoch: 0 [600/1151 (52%)]	Loss: 0.169412
+2023-12-12 16:21:03,863 - root - INFO - Train Epoch: 0 [700/1151 (61%)]	Loss: 0.208116
+2023-12-12 16:22:00,318 - root - INFO - Train Epoch: 0 [800/1151 (70%)]	Loss: 0.216418
+2023-12-12 16:22:57,046 - root - INFO - Train Epoch: 0 [900/1151 (78%)]	Loss: 0.392782
+2023-12-12 16:23:54,578 - root - INFO - Train Epoch: 0 [1000/1151 (87%)]	Loss: 0.492920
+2023-12-12 16:24:52,325 - root - INFO - Train Epoch: 0 [1100/1151 (96%)]	Loss: -0.381565
+2023-12-12 16:25:21,969 - root - INFO - Training loss in iteration 4 epoch 0 is 0.05126330137356378
+2023-12-12 16:51:03,903 - root - INFO - Iteration 4 Epoch 0 Mean IC: 0.0665867685647605, Mean Rank IC: 0.054529017501379, Eval loss 0.787557164787269
+2023-12-12 16:51:13,066 - root - INFO - Train Epoch: 1 [0/1151 (0%)]	Loss: 0.251617
+2023-12-12 16:52:07,780 - root - INFO - Train Epoch: 1 [100/1151 (9%)]	Loss: 0.075582
+2023-12-12 16:53:01,866 - root - INFO - Train Epoch: 1 [200/1151 (17%)]	Loss: -0.035280
+2023-12-12 16:53:55,878 - root - INFO - Train Epoch: 1 [300/1151 (26%)]	Loss: 0.076501
+2023-12-12 16:54:49,334 - root - INFO - Train Epoch: 1 [400/1151 (35%)]	Loss: -0.160474
+2023-12-12 16:55:42,993 - root - INFO - Train Epoch: 1 [500/1151 (43%)]	Loss: 0.107241
+2023-12-12 16:56:36,959 - root - INFO - Train Epoch: 1 [600/1151 (52%)]	Loss: 0.083311
+2023-12-12 16:57:31,341 - root - INFO - Train Epoch: 1 [700/1151 (61%)]	Loss: 0.441740
+2023-12-12 16:58:25,528 - root - INFO - Train Epoch: 1 [800/1151 (70%)]	Loss: 0.261262
+2023-12-12 16:59:19,753 - root - INFO - Train Epoch: 1 [900/1151 (78%)]	Loss: 0.196660
+2023-12-12 17:00:13,501 - root - INFO - Train Epoch: 1 [1000/1151 (87%)]	Loss: -0.071947
+2023-12-12 17:01:07,698 - root - INFO - Train Epoch: 1 [1100/1151 (96%)]	Loss: 0.057312
+2023-12-12 17:01:35,717 - root - INFO - Training loss in iteration 4 epoch 1 is 0.04738134119196833
+2023-12-12 17:26:45,966 - root - INFO - Iteration 4 Epoch 1 Mean IC: 0.05675701488317067, Mean Rank IC: 0.046660272494248554, Eval loss 0.7939111666112649
+2023-12-12 17:26:59,589 - root - INFO - Train Epoch: 2 [0/1151 (0%)]	Loss: -0.009268
+2023-12-12 17:28:01,954 - root - INFO - Train Epoch: 2 [100/1151 (9%)]	Loss: 0.395625
+2023-12-12 17:28:59,207 - root - INFO - Train Epoch: 2 [200/1151 (17%)]	Loss: 0.078172
+2023-12-12 17:29:57,659 - root - INFO - Train Epoch: 2 [300/1151 (26%)]	Loss: -0.063518
+2023-12-12 17:30:55,345 - root - INFO - Train Epoch: 2 [400/1151 (35%)]	Loss: 0.020607
+2023-12-12 17:31:53,813 - root - INFO - Train Epoch: 2 [500/1151 (43%)]	Loss: 0.166958
+2023-12-12 17:32:51,297 - root - INFO - Train Epoch: 2 [600/1151 (52%)]	Loss: -0.022817
+2023-12-12 17:33:49,156 - root - INFO - Train Epoch: 2 [700/1151 (61%)]	Loss: -0.048242
+2023-12-12 17:34:47,688 - root - INFO - Train Epoch: 2 [800/1151 (70%)]	Loss: -0.109978
+2023-12-12 17:35:46,566 - root - INFO - Train Epoch: 2 [900/1151 (78%)]	Loss: 0.261288
+2023-12-12 17:36:43,917 - root - INFO - Train Epoch: 2 [1000/1151 (87%)]	Loss: 0.252732
+2023-12-12 17:37:41,803 - root - INFO - Train Epoch: 2 [1100/1151 (96%)]	Loss: 0.141474
+2023-12-12 17:38:10,956 - root - INFO - Training loss in iteration 4 epoch 2 is 0.04885572225476844
+2023-12-12 18:03:37,440 - root - INFO - Iteration 4 Epoch 2 Mean IC: 0.07268356398505647, Mean Rank IC: 0.06101113191393555, Eval loss 0.717521493552161
+2023-12-12 18:03:46,756 - root - INFO - Train Epoch: 3 [0/1151 (0%)]	Loss: -0.032749
+2023-12-12 18:04:40,702 - root - INFO - Train Epoch: 3 [100/1151 (9%)]	Loss: 0.187812
+2023-12-12 18:05:35,121 - root - INFO - Train Epoch: 3 [200/1151 (17%)]	Loss: 0.260259
+2023-12-12 18:06:28,976 - root - INFO - Train Epoch: 3 [300/1151 (26%)]	Loss: -0.033586
+2023-12-12 18:07:22,136 - root - INFO - Train Epoch: 3 [400/1151 (35%)]	Loss: -0.076285
+2023-12-12 18:08:12,100 - root - INFO - Train Epoch: 3 [500/1151 (43%)]	Loss: -0.016819
+2023-12-12 18:09:03,692 - root - INFO - Train Epoch: 3 [600/1151 (52%)]	Loss: 0.080517
+2023-12-12 18:09:55,707 - root - INFO - Train Epoch: 3 [700/1151 (61%)]	Loss: 0.230539
+2023-12-12 18:10:47,881 - root - INFO - Train Epoch: 3 [800/1151 (70%)]	Loss: -0.122707
+2023-12-12 18:11:39,959 - root - INFO - Train Epoch: 3 [900/1151 (78%)]	Loss: 0.030306
+2023-12-12 18:12:31,842 - root - INFO - Train Epoch: 3 [1000/1151 (87%)]	Loss: 0.098573
+2023-12-12 18:13:24,377 - root - INFO - Train Epoch: 3 [1100/1151 (96%)]	Loss: 0.188718
+2023-12-12 18:13:50,538 - root - INFO - Training loss in iteration 4 epoch 3 is 0.05157710857799424
+2023-12-12 18:38:13,548 - root - INFO - Iteration 4 Epoch 3 Mean IC: 0.07054682048094603, Mean Rank IC: 0.05754250989459669, Eval loss 0.6985713576928514
+2023-12-12 18:38:23,964 - root - INFO - Train Epoch: 4 [0/1151 (0%)]	Loss: 0.002268
+2023-12-12 18:39:17,394 - root - INFO - Train Epoch: 4 [100/1151 (9%)]	Loss: 0.221100
+2023-12-12 18:40:10,754 - root - INFO - Train Epoch: 4 [200/1151 (17%)]	Loss: 0.174690
+2023-12-12 18:41:04,067 - root - INFO - Train Epoch: 4 [300/1151 (26%)]	Loss: 0.177489
+2023-12-12 18:41:56,646 - root - INFO - Train Epoch: 4 [400/1151 (35%)]	Loss: 0.181676
+2023-12-12 18:42:50,462 - root - INFO - Train Epoch: 4 [500/1151 (43%)]	Loss: 0.152847
+2023-12-12 18:43:45,262 - root - INFO - Train Epoch: 4 [600/1151 (52%)]	Loss: -0.077688
+2023-12-12 18:44:40,383 - root - INFO - Train Epoch: 4 [700/1151 (61%)]	Loss: -0.160108
+2023-12-12 18:45:35,846 - root - INFO - Train Epoch: 4 [800/1151 (70%)]	Loss: 0.003104
+2023-12-12 18:46:30,663 - root - INFO - Train Epoch: 4 [900/1151 (78%)]	Loss: -0.012148
+2023-12-12 18:47:25,960 - root - INFO - Train Epoch: 4 [1000/1151 (87%)]	Loss: 0.030571
+2023-12-12 18:48:21,444 - root - INFO - Train Epoch: 4 [1100/1151 (96%)]	Loss: 0.084050
+2023-12-12 18:48:49,371 - root - INFO - Training loss in iteration 4 epoch 4 is 0.04813466513032607
+2023-12-12 19:14:03,603 - root - INFO - Iteration 4 Epoch 4 Mean IC: 0.06861332757398486, Mean Rank IC: 0.055922089102601664, Eval loss 0.6930096405939977
+2023-12-12 19:14:12,548 - root - INFO - Train Epoch: 5 [0/1151 (0%)]	Loss: -0.089162
+2023-12-12 19:15:04,542 - root - INFO - Train Epoch: 5 [100/1151 (9%)]	Loss: -0.239901
+2023-12-12 19:15:56,390 - root - INFO - Train Epoch: 5 [200/1151 (17%)]	Loss: -0.084569
+2023-12-12 19:16:48,110 - root - INFO - Train Epoch: 5 [300/1151 (26%)]	Loss: 0.265050
+2023-12-12 19:17:39,680 - root - INFO - Train Epoch: 5 [400/1151 (35%)]	Loss: 0.088514
+2023-12-12 19:18:31,441 - root - INFO - Train Epoch: 5 [500/1151 (43%)]	Loss: 0.235360
+2023-12-12 19:19:22,888 - root - INFO - Train Epoch: 5 [600/1151 (52%)]	Loss: 0.085891
+2023-12-12 19:20:15,406 - root - INFO - Train Epoch: 5 [700/1151 (61%)]	Loss: 0.112266
+2023-12-12 19:21:08,938 - root - INFO - Train Epoch: 5 [800/1151 (70%)]	Loss: 0.108531
+2023-12-12 19:22:02,520 - root - INFO - Train Epoch: 5 [900/1151 (78%)]	Loss: 0.190661
+2023-12-12 19:22:55,600 - root - INFO - Train Epoch: 5 [1000/1151 (87%)]	Loss: -0.079470
+2023-12-12 19:23:48,584 - root - INFO - Train Epoch: 5 [1100/1151 (96%)]	Loss: 0.096242
+2023-12-12 19:24:15,511 - root - INFO - Training loss in iteration 4 epoch 5 is 0.052914450322152425
+2023-12-12 19:48:39,165 - root - INFO - Iteration 4 Epoch 5 Mean IC: 0.0706479534328835, Mean Rank IC: 0.059514145184829295, Eval loss 0.701710334200351
+2023-12-12 19:48:47,057 - root - INFO - Train Epoch: 6 [0/1151 (0%)]	Loss: -0.046837
+2023-12-12 19:49:39,338 - root - INFO - Train Epoch: 6 [100/1151 (9%)]	Loss: -0.093615
+2023-12-12 19:50:31,212 - root - INFO - Train Epoch: 6 [200/1151 (17%)]	Loss: 0.150248
+2023-12-12 19:51:22,945 - root - INFO - Train Epoch: 6 [300/1151 (26%)]	Loss: 0.094119
+2023-12-12 19:52:13,879 - root - INFO - Train Epoch: 6 [400/1151 (35%)]	Loss: 0.463910
+2023-12-12 19:53:05,311 - root - INFO - Train Epoch: 6 [500/1151 (43%)]	Loss: -0.083752
+2023-12-12 19:53:57,001 - root - INFO - Train Epoch: 6 [600/1151 (52%)]	Loss: 0.076697
+2023-12-12 19:54:47,756 - root - INFO - Train Epoch: 6 [700/1151 (61%)]	Loss: 0.084412
+2023-12-12 19:55:39,228 - root - INFO - Train Epoch: 6 [800/1151 (70%)]	Loss: 0.058689
+2023-12-12 19:56:31,277 - root - INFO - Train Epoch: 6 [900/1151 (78%)]	Loss: 0.107101
+2023-12-12 19:57:23,156 - root - INFO - Train Epoch: 6 [1000/1151 (87%)]	Loss: 0.024790
+2023-12-12 19:58:14,714 - root - INFO - Train Epoch: 6 [1100/1151 (96%)]	Loss: 0.164379
+2023-12-12 19:58:40,677 - root - INFO - Training loss in iteration 4 epoch 6 is 0.04558035038689962
+2023-12-12 20:24:00,707 - root - INFO - Iteration 4 Epoch 6 Mean IC: 0.0614950686371618, Mean Rank IC: 0.04999393601348379, Eval loss 0.7850474628512977
+2023-12-12 20:24:15,968 - root - INFO - Train Epoch: 7 [0/1151 (0%)]	Loss: 0.165712
+2023-12-12 20:25:16,836 - root - INFO - Train Epoch: 7 [100/1151 (9%)]	Loss: -0.067316
+2023-12-12 20:26:11,964 - root - INFO - Train Epoch: 7 [200/1151 (17%)]	Loss: 0.320505
+2023-12-12 20:27:07,835 - root - INFO - Train Epoch: 7 [300/1151 (26%)]	Loss: 0.264622
+2023-12-12 20:28:03,151 - root - INFO - Train Epoch: 7 [400/1151 (35%)]	Loss: 0.082360
+2023-12-12 20:28:56,132 - root - INFO - Train Epoch: 7 [500/1151 (43%)]	Loss: -0.219000
+2023-12-12 20:29:49,081 - root - INFO - Train Epoch: 7 [600/1151 (52%)]	Loss: 0.241052
+2023-12-12 20:30:41,982 - root - INFO - Train Epoch: 7 [700/1151 (61%)]	Loss: -0.029739
+2023-12-12 20:31:34,124 - root - INFO - Train Epoch: 7 [800/1151 (70%)]	Loss: 0.039610
+2023-12-12 20:32:27,319 - root - INFO - Train Epoch: 7 [900/1151 (78%)]	Loss: 0.004495
+2023-12-12 20:33:20,323 - root - INFO - Train Epoch: 7 [1000/1151 (87%)]	Loss: 0.315538
+2023-12-12 20:34:13,088 - root - INFO - Train Epoch: 7 [1100/1151 (96%)]	Loss: 0.388668
+2023-12-12 20:34:40,793 - root - INFO - Training loss in iteration 4 epoch 7 is 0.04526489763985915
+2023-12-12 20:58:54,252 - root - INFO - Iteration 4 Epoch 7 Mean IC: 0.07610985701819013, Mean Rank IC: 0.06452914699339538, Eval loss 0.6504039013239203
+2023-12-12 20:59:02,124 - root - INFO - Train Epoch: 8 [0/1151 (0%)]	Loss: 0.248681
+2023-12-12 20:59:57,030 - root - INFO - Train Epoch: 8 [100/1151 (9%)]	Loss: 0.197181
+2023-12-12 21:00:48,965 - root - INFO - Train Epoch: 8 [200/1151 (17%)]	Loss: -0.141225
+2023-12-12 21:01:40,670 - root - INFO - Train Epoch: 8 [300/1151 (26%)]	Loss: 0.058502
+2023-12-12 21:02:32,348 - root - INFO - Train Epoch: 8 [400/1151 (35%)]	Loss: 0.062189
+2023-12-12 21:03:24,103 - root - INFO - Train Epoch: 8 [500/1151 (43%)]	Loss: 0.336297
+2023-12-12 21:04:15,870 - root - INFO - Train Epoch: 8 [600/1151 (52%)]	Loss: 0.097373
+2023-12-12 21:05:07,795 - root - INFO - Train Epoch: 8 [700/1151 (61%)]	Loss: -0.053121
+2023-12-12 21:05:58,767 - root - INFO - Train Epoch: 8 [800/1151 (70%)]	Loss: -0.044202
+2023-12-12 21:06:50,450 - root - INFO - Train Epoch: 8 [900/1151 (78%)]	Loss: -0.060267
+2023-12-12 21:07:41,706 - root - INFO - Train Epoch: 8 [1000/1151 (87%)]	Loss: 0.081332
+2023-12-12 21:08:34,055 - root - INFO - Train Epoch: 8 [1100/1151 (96%)]	Loss: 0.224781
+2023-12-12 21:08:59,400 - root - INFO - Training loss in iteration 4 epoch 8 is 0.04729548321274651
+2023-12-12 21:33:49,648 - root - INFO - Iteration 4 Epoch 8 Mean IC: 0.07102630245840448, Mean Rank IC: 0.059306717737049215, Eval loss 0.6812799191865765
+2023-12-12 21:34:03,686 - root - INFO - Train Epoch: 9 [0/1151 (0%)]	Loss: 0.044487
+2023-12-12 21:35:01,650 - root - INFO - Train Epoch: 9 [100/1151 (9%)]	Loss: 0.079777
+2023-12-12 21:35:57,109 - root - INFO - Train Epoch: 9 [200/1151 (17%)]	Loss: 0.165742
+2023-12-12 21:36:51,867 - root - INFO - Train Epoch: 9 [300/1151 (26%)]	Loss: 0.309249
+2023-12-12 21:37:46,918 - root - INFO - Train Epoch: 9 [400/1151 (35%)]	Loss: 0.078366
+2023-12-12 21:38:41,874 - root - INFO - Train Epoch: 9 [500/1151 (43%)]	Loss: -0.201194
+2023-12-12 21:39:36,882 - root - INFO - Train Epoch: 9 [600/1151 (52%)]	Loss: 0.066620
+2023-12-12 21:40:31,929 - root - INFO - Train Epoch: 9 [700/1151 (61%)]	Loss: -0.051720
+2023-12-12 21:41:26,181 - root - INFO - Train Epoch: 9 [800/1151 (70%)]	Loss: 0.116385
+2023-12-12 21:42:21,044 - root - INFO - Train Epoch: 9 [900/1151 (78%)]	Loss: 0.123201
+2023-12-12 21:43:15,747 - root - INFO - Train Epoch: 9 [1000/1151 (87%)]	Loss: 0.238256
+2023-12-12 21:44:10,065 - root - INFO - Train Epoch: 9 [1100/1151 (96%)]	Loss: -0.092104
+2023-12-12 21:44:37,773 - root - INFO - Training loss in iteration 4 epoch 9 is 0.0485884412139214
+2023-12-12 22:09:07,895 - root - INFO - Iteration 4 Epoch 9 Mean IC: 0.0654653997883796, Mean Rank IC: 0.05356664506176517, Eval loss 0.7531550044163329
+2023-12-12 22:09:07,896 - root - INFO - loading train/valid/test set ... ... 
+2023-12-12 22:09:16,088 - root - INFO - Train Epoch: 0 [0/1152 (0%)]	Loss: 0.042859
+2023-12-12 22:10:09,513 - root - INFO - Train Epoch: 0 [100/1152 (9%)]	Loss: -0.023375
+2023-12-12 22:11:01,567 - root - INFO - Train Epoch: 0 [200/1152 (17%)]	Loss: 0.201601
+2023-12-12 22:11:54,158 - root - INFO - Train Epoch: 0 [300/1152 (26%)]	Loss: 0.099170
+2023-12-12 22:12:47,424 - root - INFO - Train Epoch: 0 [400/1152 (35%)]	Loss: 0.066664
+2023-12-12 22:13:40,844 - root - INFO - Train Epoch: 0 [500/1152 (43%)]	Loss: 0.130905
+2023-12-12 22:14:33,848 - root - INFO - Train Epoch: 0 [600/1152 (52%)]	Loss: 0.197266
+2023-12-12 22:15:26,428 - root - INFO - Train Epoch: 0 [700/1152 (61%)]	Loss: 0.089456
+2023-12-12 22:16:19,431 - root - INFO - Train Epoch: 0 [800/1152 (69%)]	Loss: 0.195178
+2023-12-12 22:17:12,381 - root - INFO - Train Epoch: 0 [900/1152 (78%)]	Loss: 0.162136
+2023-12-12 22:18:05,343 - root - INFO - Train Epoch: 0 [1000/1152 (87%)]	Loss: 0.099629
+2023-12-12 22:18:58,063 - root - INFO - Train Epoch: 0 [1100/1152 (95%)]	Loss: -0.134369
+2023-12-12 22:19:24,932 - root - INFO - Training loss in iteration 5 epoch 0 is 0.04663706067044081
+2023-12-12 22:46:23,772 - root - INFO - Iteration 5 Epoch 0 Mean IC: 0.05796542592811851, Mean Rank IC: 0.05562998556449086, Eval loss 0.6733285230373649
+2023-12-12 22:46:31,214 - root - INFO - Train Epoch: 1 [0/1152 (0%)]	Loss: 0.041355
+2023-12-12 22:47:23,642 - root - INFO - Train Epoch: 1 [100/1152 (9%)]	Loss: 0.118263
+2023-12-12 22:48:15,786 - root - INFO - Train Epoch: 1 [200/1152 (17%)]	Loss: 0.087905
+2023-12-12 22:49:09,909 - root - INFO - Train Epoch: 1 [300/1152 (26%)]	Loss: 0.003154
+2023-12-12 22:50:02,802 - root - INFO - Train Epoch: 1 [400/1152 (35%)]	Loss: -0.138433
+2023-12-12 22:50:57,084 - root - INFO - Train Epoch: 1 [500/1152 (43%)]	Loss: 0.183970
+2023-12-12 22:51:50,970 - root - INFO - Train Epoch: 1 [600/1152 (52%)]	Loss: -0.051883
+2023-12-12 22:52:45,879 - root - INFO - Train Epoch: 1 [700/1152 (61%)]	Loss: 0.036735
+2023-12-12 22:53:40,430 - root - INFO - Train Epoch: 1 [800/1152 (69%)]	Loss: 0.009462
+2023-12-12 22:54:34,423 - root - INFO - Train Epoch: 1 [900/1152 (78%)]	Loss: -0.207108
+2023-12-12 22:55:28,959 - root - INFO - Train Epoch: 1 [1000/1152 (87%)]	Loss: 0.127820
+2023-12-12 22:56:23,866 - root - INFO - Train Epoch: 1 [1100/1152 (95%)]	Loss: 0.049944
+2023-12-12 22:56:52,750 - root - INFO - Training loss in iteration 5 epoch 1 is 0.04822691218901633
+2023-12-12 23:24:29,781 - root - INFO - Iteration 5 Epoch 1 Mean IC: 0.06952713705042862, Mean Rank IC: 0.06043059298629229, Eval loss 0.7016075484056041
+2023-12-12 23:24:40,986 - root - INFO - Train Epoch: 2 [0/1152 (0%)]	Loss: 0.015492
+2023-12-12 23:25:34,474 - root - INFO - Train Epoch: 2 [100/1152 (9%)]	Loss: -0.112276
+2023-12-12 23:26:27,526 - root - INFO - Train Epoch: 2 [200/1152 (17%)]	Loss: 0.123547
+2023-12-12 23:27:20,359 - root - INFO - Train Epoch: 2 [300/1152 (26%)]	Loss: -0.061566
+2023-12-12 23:28:13,570 - root - INFO - Train Epoch: 2 [400/1152 (35%)]	Loss: 0.061414
+2023-12-12 23:29:06,324 - root - INFO - Train Epoch: 2 [500/1152 (43%)]	Loss: -0.017013
+2023-12-12 23:29:59,350 - root - INFO - Train Epoch: 2 [600/1152 (52%)]	Loss: 0.225023
+2023-12-12 23:30:52,773 - root - INFO - Train Epoch: 2 [700/1152 (61%)]	Loss: 0.134407
+2023-12-12 23:31:45,725 - root - INFO - Train Epoch: 2 [800/1152 (69%)]	Loss: -0.150044
+2023-12-12 23:32:38,779 - root - INFO - Train Epoch: 2 [900/1152 (78%)]	Loss: -0.007032
+2023-12-12 23:33:32,035 - root - INFO - Train Epoch: 2 [1000/1152 (87%)]	Loss: 0.052236
+2023-12-12 23:34:24,720 - root - INFO - Train Epoch: 2 [1100/1152 (95%)]	Loss: -0.250891
+2023-12-12 23:34:50,975 - root - INFO - Training loss in iteration 5 epoch 2 is 0.04538169096405101
+2023-12-13 00:01:23,048 - root - INFO - Iteration 5 Epoch 2 Mean IC: 0.06546062125391787, Mean Rank IC: 0.06047200357871765, Eval loss 0.6703364386725328
+2023-12-13 00:01:32,176 - root - INFO - Train Epoch: 3 [0/1152 (0%)]	Loss: 0.182597
+2023-12-13 00:02:24,699 - root - INFO - Train Epoch: 3 [100/1152 (9%)]	Loss: 0.094743
+2023-12-13 00:03:16,466 - root - INFO - Train Epoch: 3 [200/1152 (17%)]	Loss: 0.165657
+2023-12-13 00:04:08,181 - root - INFO - Train Epoch: 3 [300/1152 (26%)]	Loss: -0.208361
+2023-12-13 00:04:59,866 - root - INFO - Train Epoch: 3 [400/1152 (35%)]	Loss: -0.027962
+2023-12-13 00:05:53,881 - root - INFO - Train Epoch: 3 [500/1152 (43%)]	Loss: 0.268687
+2023-12-13 00:06:46,942 - root - INFO - Train Epoch: 3 [600/1152 (52%)]	Loss: -0.238345
+2023-12-13 00:07:39,985 - root - INFO - Train Epoch: 3 [700/1152 (61%)]	Loss: 0.130379
+2023-12-13 00:08:32,560 - root - INFO - Train Epoch: 3 [800/1152 (69%)]	Loss: 0.211797
+2023-12-13 00:09:25,913 - root - INFO - Train Epoch: 3 [900/1152 (78%)]	Loss: 0.078649
+2023-12-13 00:10:22,164 - root - INFO - Train Epoch: 3 [1000/1152 (87%)]	Loss: 0.250417
+2023-12-13 00:11:18,872 - root - INFO - Train Epoch: 3 [1100/1152 (95%)]	Loss: -0.006846
+2023-12-13 00:11:48,153 - root - INFO - Training loss in iteration 5 epoch 3 is 0.04918449278920889
+2023-12-13 00:39:56,168 - root - INFO - Iteration 5 Epoch 3 Mean IC: 0.06621783354319692, Mean Rank IC: 0.06042181187785526, Eval loss 0.7080872333589404
+2023-12-13 00:40:03,252 - root - INFO - Train Epoch: 4 [0/1152 (0%)]	Loss: 0.005720
+2023-12-13 00:40:56,749 - root - INFO - Train Epoch: 4 [100/1152 (9%)]	Loss: 0.090041
+2023-12-13 00:41:48,405 - root - INFO - Train Epoch: 4 [200/1152 (17%)]	Loss: 0.119576
+2023-12-13 00:42:40,799 - root - INFO - Train Epoch: 4 [300/1152 (26%)]	Loss: 0.049840
+2023-12-13 00:43:32,583 - root - INFO - Train Epoch: 4 [400/1152 (35%)]	Loss: 0.075994
+2023-12-13 00:44:24,314 - root - INFO - Train Epoch: 4 [500/1152 (43%)]	Loss: 0.040361
+2023-12-13 00:45:15,769 - root - INFO - Train Epoch: 4 [600/1152 (52%)]	Loss: -0.149051
+2023-12-13 00:46:07,512 - root - INFO - Train Epoch: 4 [700/1152 (61%)]	Loss: 0.111953
+2023-12-13 00:46:59,779 - root - INFO - Train Epoch: 4 [800/1152 (69%)]	Loss: -0.024064
+2023-12-13 00:47:51,209 - root - INFO - Train Epoch: 4 [900/1152 (78%)]	Loss: -0.381847
+2023-12-13 00:48:43,300 - root - INFO - Train Epoch: 4 [1000/1152 (87%)]	Loss: -0.186467
+2023-12-13 00:49:35,430 - root - INFO - Train Epoch: 4 [1100/1152 (95%)]	Loss: -0.214468
+2023-12-13 00:50:00,600 - root - INFO - Training loss in iteration 5 epoch 4 is 0.04801154343618287
+2023-12-13 01:17:41,594 - root - INFO - Iteration 5 Epoch 4 Mean IC: 0.06429633402688152, Mean Rank IC: 0.06074278662975306, Eval loss 0.7134619755018886
+2023-12-13 01:17:54,195 - root - INFO - Train Epoch: 5 [0/1152 (0%)]	Loss: 0.263516
+2023-12-13 01:18:59,739 - root - INFO - Train Epoch: 5 [100/1152 (9%)]	Loss: 0.246490
+2023-12-13 01:19:56,240 - root - INFO - Train Epoch: 5 [200/1152 (17%)]	Loss: -0.035863
+2023-12-13 01:20:53,497 - root - INFO - Train Epoch: 5 [300/1152 (26%)]	Loss: 0.141462
+2023-12-13 01:21:49,582 - root - INFO - Train Epoch: 5 [400/1152 (35%)]	Loss: -0.136245
+2023-12-13 01:22:45,413 - root - INFO - Train Epoch: 5 [500/1152 (43%)]	Loss: 0.248007
+2023-12-13 01:23:41,088 - root - INFO - Train Epoch: 5 [600/1152 (52%)]	Loss: 0.213828
+2023-12-13 01:24:36,147 - root - INFO - Train Epoch: 5 [700/1152 (61%)]	Loss: 0.236256
+2023-12-13 01:25:33,068 - root - INFO - Train Epoch: 5 [800/1152 (69%)]	Loss: -0.001843
+2023-12-13 01:26:28,021 - root - INFO - Train Epoch: 5 [900/1152 (78%)]	Loss: 0.142961
+2023-12-13 01:27:26,154 - root - INFO - Train Epoch: 5 [1000/1152 (87%)]	Loss: 0.088122
+2023-12-13 01:28:21,992 - root - INFO - Train Epoch: 5 [1100/1152 (95%)]	Loss: 0.216066
+2023-12-13 01:28:50,990 - root - INFO - Training loss in iteration 5 epoch 5 is 0.04502460920614087
+2023-12-13 01:55:31,919 - root - INFO - Iteration 5 Epoch 5 Mean IC: 0.06808146257949954, Mean Rank IC: 0.061824606121671025, Eval loss 0.6916053095226916
+2023-12-13 01:55:38,923 - root - INFO - Train Epoch: 6 [0/1152 (0%)]	Loss: -0.008516
+2023-12-13 01:56:33,112 - root - INFO - Train Epoch: 6 [100/1152 (9%)]	Loss: -0.002542
+2023-12-13 01:57:24,650 - root - INFO - Train Epoch: 6 [200/1152 (17%)]	Loss: -0.138786
+2023-12-13 01:58:16,317 - root - INFO - Train Epoch: 6 [300/1152 (26%)]	Loss: 0.180634
+2023-12-13 01:59:07,935 - root - INFO - Train Epoch: 6 [400/1152 (35%)]	Loss: 0.165091
+2023-12-13 01:59:59,548 - root - INFO - Train Epoch: 6 [500/1152 (43%)]	Loss: 0.176163
+2023-12-13 02:00:51,257 - root - INFO - Train Epoch: 6 [600/1152 (52%)]	Loss: -0.256652
+2023-12-13 02:01:50,641 - root - INFO - Train Epoch: 6 [700/1152 (61%)]	Loss: -0.081584
+2023-12-13 02:02:47,456 - root - INFO - Train Epoch: 6 [800/1152 (69%)]	Loss: 0.117686
+2023-12-13 02:03:43,700 - root - INFO - Train Epoch: 6 [900/1152 (78%)]	Loss: 0.083043
+2023-12-13 02:04:41,073 - root - INFO - Train Epoch: 6 [1000/1152 (87%)]	Loss: 0.093150
+2023-12-13 02:05:36,334 - root - INFO - Train Epoch: 6 [1100/1152 (95%)]	Loss: 0.100834
+2023-12-13 02:06:04,860 - root - INFO - Training loss in iteration 5 epoch 6 is 0.04687322784189342
+2023-12-13 02:34:17,561 - root - INFO - Iteration 5 Epoch 6 Mean IC: 0.0673606647205778, Mean Rank IC: 0.06259410457020634, Eval loss 0.6309142166694987
+2023-12-13 02:34:26,662 - root - INFO - Train Epoch: 7 [0/1152 (0%)]	Loss: 0.381181
+2023-12-13 02:35:19,404 - root - INFO - Train Epoch: 7 [100/1152 (9%)]	Loss: 0.145610
+2023-12-13 02:36:11,517 - root - INFO - Train Epoch: 7 [200/1152 (17%)]	Loss: 0.173246
+2023-12-13 02:37:03,685 - root - INFO - Train Epoch: 7 [300/1152 (26%)]	Loss: 0.206934
+2023-12-13 02:37:55,150 - root - INFO - Train Epoch: 7 [400/1152 (35%)]	Loss: 0.088381
+2023-12-13 02:38:46,878 - root - INFO - Train Epoch: 7 [500/1152 (43%)]	Loss: 0.066085
+2023-12-13 02:39:38,626 - root - INFO - Train Epoch: 7 [600/1152 (52%)]	Loss: -0.052799
+2023-12-13 02:40:30,696 - root - INFO - Train Epoch: 7 [700/1152 (61%)]	Loss: -0.038557
+2023-12-13 02:41:22,571 - root - INFO - Train Epoch: 7 [800/1152 (69%)]	Loss: 0.184213
+2023-12-13 02:42:14,530 - root - INFO - Train Epoch: 7 [900/1152 (78%)]	Loss: 0.187885
+2023-12-13 02:43:06,048 - root - INFO - Train Epoch: 7 [1000/1152 (87%)]	Loss: 0.117701
+2023-12-13 02:43:57,937 - root - INFO - Train Epoch: 7 [1100/1152 (95%)]	Loss: -0.059512
+2023-12-13 02:44:23,956 - root - INFO - Training loss in iteration 5 epoch 7 is 0.0445787833757802
+2023-12-13 03:11:55,065 - root - INFO - Iteration 5 Epoch 7 Mean IC: 0.06537253951626051, Mean Rank IC: 0.06003185395536314, Eval loss 0.6957053651289685
+2023-12-13 03:12:06,331 - root - INFO - Train Epoch: 8 [0/1152 (0%)]	Loss: 0.300625
+2023-12-13 03:13:10,145 - root - INFO - Train Epoch: 8 [100/1152 (9%)]	Loss: 0.005332
+2023-12-13 03:14:06,869 - root - INFO - Train Epoch: 8 [200/1152 (17%)]	Loss: -0.287917
+2023-12-13 03:15:03,147 - root - INFO - Train Epoch: 8 [300/1152 (26%)]	Loss: 0.160894
+2023-12-13 03:15:58,359 - root - INFO - Train Epoch: 8 [400/1152 (35%)]	Loss: -0.061836
+2023-12-13 03:16:54,082 - root - INFO - Train Epoch: 8 [500/1152 (43%)]	Loss: -0.131617
+2023-12-13 03:17:53,480 - root - INFO - Train Epoch: 8 [600/1152 (52%)]	Loss: 0.072030
+2023-12-13 03:18:50,012 - root - INFO - Train Epoch: 8 [700/1152 (61%)]	Loss: 0.154698
+2023-12-13 03:19:46,001 - root - INFO - Train Epoch: 8 [800/1152 (69%)]	Loss: 0.039665
+2023-12-13 03:20:43,046 - root - INFO - Train Epoch: 8 [900/1152 (78%)]	Loss: 0.037040
+2023-12-13 03:21:39,055 - root - INFO - Train Epoch: 8 [1000/1152 (87%)]	Loss: -0.052682
+2023-12-13 03:22:35,724 - root - INFO - Train Epoch: 8 [1100/1152 (95%)]	Loss: 0.023750
+2023-12-13 03:23:03,690 - root - INFO - Training loss in iteration 5 epoch 8 is 0.042722064257961594
+2023-12-13 03:49:47,644 - root - INFO - Iteration 5 Epoch 8 Mean IC: 0.06073489491054079, Mean Rank IC: 0.05910246095722139, Eval loss 0.7188160750601027
+2023-12-13 03:49:55,687 - root - INFO - Train Epoch: 9 [0/1152 (0%)]	Loss: 0.274410
+2023-12-13 03:50:48,484 - root - INFO - Train Epoch: 9 [100/1152 (9%)]	Loss: 0.066412
+2023-12-13 03:51:41,020 - root - INFO - Train Epoch: 9 [200/1152 (17%)]	Loss: 0.067148
+2023-12-13 03:52:31,442 - root - INFO - Train Epoch: 9 [300/1152 (26%)]	Loss: 0.010404
+2023-12-13 03:53:23,174 - root - INFO - Train Epoch: 9 [400/1152 (35%)]	Loss: 0.199774
+2023-12-13 03:54:14,195 - root - INFO - Train Epoch: 9 [500/1152 (43%)]	Loss: -0.150362
+2023-12-13 03:55:05,980 - root - INFO - Train Epoch: 9 [600/1152 (52%)]	Loss: 0.076977
+2023-12-13 03:55:58,061 - root - INFO - Train Epoch: 9 [700/1152 (61%)]	Loss: -0.122310
+2023-12-13 03:56:50,763 - root - INFO - Train Epoch: 9 [800/1152 (69%)]	Loss: 0.031936
+2023-12-13 03:57:46,659 - root - INFO - Train Epoch: 9 [900/1152 (78%)]	Loss: 0.006058
+2023-12-13 03:58:43,860 - root - INFO - Train Epoch: 9 [1000/1152 (87%)]	Loss: 0.176190
+2023-12-13 03:59:39,739 - root - INFO - Train Epoch: 9 [1100/1152 (95%)]	Loss: -0.175299
+2023-12-13 04:00:08,447 - root - INFO - Training loss in iteration 5 epoch 9 is 0.04791484013872428
+2023-12-13 04:28:24,093 - root - INFO - Iteration 5 Epoch 9 Mean IC: 0.05240541682008524, Mean Rank IC: 0.052184040142930356, Eval loss 0.6917197262799298
+2023-12-13 04:28:24,094 - root - INFO - loading train/valid/test set ... ... 
+2023-12-13 04:28:31,347 - root - INFO - Train Epoch: 0 [0/1157 (0%)]	Loss: -0.065454
+2023-12-13 04:29:25,240 - root - INFO - Train Epoch: 0 [100/1157 (9%)]	Loss: 0.023653
+2023-12-13 04:30:17,061 - root - INFO - Train Epoch: 0 [200/1157 (17%)]	Loss: 0.106431
+2023-12-13 04:31:08,335 - root - INFO - Train Epoch: 0 [300/1157 (26%)]	Loss: 0.043426
+2023-12-13 04:31:59,883 - root - INFO - Train Epoch: 0 [400/1157 (35%)]	Loss: 0.128437
+2023-12-13 04:32:51,308 - root - INFO - Train Epoch: 0 [500/1157 (43%)]	Loss: 0.157271
+2023-12-13 04:33:42,662 - root - INFO - Train Epoch: 0 [600/1157 (52%)]	Loss: 0.250206
+2023-12-13 04:34:34,215 - root - INFO - Train Epoch: 0 [700/1157 (61%)]	Loss: 0.167013
+2023-12-13 04:35:25,773 - root - INFO - Train Epoch: 0 [800/1157 (69%)]	Loss: -0.140378
+2023-12-13 04:36:18,004 - root - INFO - Train Epoch: 0 [900/1157 (78%)]	Loss: -0.169560
+2023-12-13 04:37:09,687 - root - INFO - Train Epoch: 0 [1000/1157 (86%)]	Loss: -0.099354
+2023-12-13 04:38:00,971 - root - INFO - Train Epoch: 0 [1100/1157 (95%)]	Loss: 0.130841
+2023-12-13 04:38:29,918 - root - INFO - Training loss in iteration 6 epoch 0 is 0.04349377561383136
+2023-12-13 05:06:57,258 - root - INFO - Iteration 6 Epoch 0 Mean IC: 0.07811466872906331, Mean Rank IC: 0.0622133095627059, Eval loss 0.6084416415847715
+2023-12-13 05:07:12,850 - root - INFO - Train Epoch: 1 [0/1157 (0%)]	Loss: -0.223266
+2023-12-13 05:08:18,761 - root - INFO - Train Epoch: 1 [100/1157 (9%)]	Loss: 0.227672
+2023-12-13 05:09:19,294 - root - INFO - Train Epoch: 1 [200/1157 (17%)]	Loss: 0.176533
+2023-12-13 05:10:19,759 - root - INFO - Train Epoch: 1 [300/1157 (26%)]	Loss: -0.014115
+2023-12-13 05:11:20,639 - root - INFO - Train Epoch: 1 [400/1157 (35%)]	Loss: 0.159172
+2023-12-13 05:12:20,829 - root - INFO - Train Epoch: 1 [500/1157 (43%)]	Loss: 0.014085
+2023-12-13 05:13:19,151 - root - INFO - Train Epoch: 1 [600/1157 (52%)]	Loss: -0.129864
+2023-12-13 05:14:18,924 - root - INFO - Train Epoch: 1 [700/1157 (61%)]	Loss: 0.055720
+2023-12-13 05:15:17,551 - root - INFO - Train Epoch: 1 [800/1157 (69%)]	Loss: 0.360562
+2023-12-13 05:16:16,989 - root - INFO - Train Epoch: 1 [900/1157 (78%)]	Loss: 0.020430
+2023-12-13 05:17:18,165 - root - INFO - Train Epoch: 1 [1000/1157 (86%)]	Loss: -0.149185
+2023-12-13 05:18:18,208 - root - INFO - Train Epoch: 1 [1100/1157 (95%)]	Loss: 0.054410
+2023-12-13 05:18:50,437 - root - INFO - Training loss in iteration 6 epoch 1 is 0.04337067485448092
+2023-12-13 05:46:40,939 - root - INFO - Iteration 6 Epoch 1 Mean IC: 0.0843565289053272, Mean Rank IC: 0.06768946471284373, Eval loss 0.5686423110424496
+2023-12-13 05:46:50,766 - root - INFO - Train Epoch: 2 [0/1157 (0%)]	Loss: -0.405047
+2023-12-13 05:47:43,421 - root - INFO - Train Epoch: 2 [100/1157 (9%)]	Loss: -0.264341
+2023-12-13 05:48:35,750 - root - INFO - Train Epoch: 2 [200/1157 (17%)]	Loss: 0.107573
+2023-12-13 05:49:28,104 - root - INFO - Train Epoch: 2 [300/1157 (26%)]	Loss: 0.209790
+2023-12-13 05:50:19,803 - root - INFO - Train Epoch: 2 [400/1157 (35%)]	Loss: -0.136150
+2023-12-13 05:51:12,407 - root - INFO - Train Epoch: 2 [500/1157 (43%)]	Loss: -0.184891
+2023-12-13 05:52:04,664 - root - INFO - Train Epoch: 2 [600/1157 (52%)]	Loss: -0.048524
+2023-12-13 05:52:59,823 - root - INFO - Train Epoch: 2 [700/1157 (61%)]	Loss: 0.336274
+2023-12-13 05:53:54,733 - root - INFO - Train Epoch: 2 [800/1157 (69%)]	Loss: -0.049787
+2023-12-13 05:54:55,454 - root - INFO - Train Epoch: 2 [900/1157 (78%)]	Loss: -0.351301
+2023-12-13 05:55:54,014 - root - INFO - Train Epoch: 2 [1000/1157 (86%)]	Loss: 0.029566
+2023-12-13 05:56:54,215 - root - INFO - Train Epoch: 2 [1100/1157 (95%)]	Loss: 0.122854
+2023-12-13 05:57:26,421 - root - INFO - Training loss in iteration 6 epoch 2 is 0.0463485521044624
+2023-12-13 06:26:32,847 - root - INFO - Iteration 6 Epoch 2 Mean IC: 0.08366088695241115, Mean Rank IC: 0.06699746276467149, Eval loss 0.6047619978179697
+2023-12-13 06:26:40,601 - root - INFO - Train Epoch: 3 [0/1157 (0%)]	Loss: 0.082177
+2023-12-13 06:27:34,935 - root - INFO - Train Epoch: 3 [100/1157 (9%)]	Loss: 0.164879
+2023-12-13 06:28:27,736 - root - INFO - Train Epoch: 3 [200/1157 (17%)]	Loss: 0.106260
+2023-12-13 06:29:18,608 - root - INFO - Train Epoch: 3 [300/1157 (26%)]	Loss: 0.103752
+2023-12-13 06:30:10,606 - root - INFO - Train Epoch: 3 [400/1157 (35%)]	Loss: -0.023421
+2023-12-13 06:31:02,365 - root - INFO - Train Epoch: 3 [500/1157 (43%)]	Loss: -0.186951
+2023-12-13 06:31:54,043 - root - INFO - Train Epoch: 3 [600/1157 (52%)]	Loss: -0.116787
+2023-12-13 06:32:46,732 - root - INFO - Train Epoch: 3 [700/1157 (61%)]	Loss: 0.074821
+2023-12-13 06:33:38,663 - root - INFO - Train Epoch: 3 [800/1157 (69%)]	Loss: -0.050796
+2023-12-13 06:34:30,552 - root - INFO - Train Epoch: 3 [900/1157 (78%)]	Loss: -0.026898
+2023-12-13 06:35:22,797 - root - INFO - Train Epoch: 3 [1000/1157 (86%)]	Loss: -0.079161
+2023-12-13 06:36:15,080 - root - INFO - Train Epoch: 3 [1100/1157 (95%)]	Loss: 0.198144
+2023-12-13 06:36:44,737 - root - INFO - Training loss in iteration 6 epoch 3 is 0.04276357074698808
+2023-12-13 07:05:31,061 - root - INFO - Iteration 6 Epoch 3 Mean IC: 0.07785351057684804, Mean Rank IC: 0.06467688585964096, Eval loss 0.6359407350909515
+2023-12-13 07:05:45,893 - root - INFO - Train Epoch: 4 [0/1157 (0%)]	Loss: 0.328803
+2023-12-13 07:06:51,723 - root - INFO - Train Epoch: 4 [100/1157 (9%)]	Loss: 0.031120
+2023-12-13 07:07:53,034 - root - INFO - Train Epoch: 4 [200/1157 (17%)]	Loss: 0.100271
+2023-12-13 07:08:51,297 - root - INFO - Train Epoch: 4 [300/1157 (26%)]	Loss: 0.044192
+2023-12-13 07:09:52,047 - root - INFO - Train Epoch: 4 [400/1157 (35%)]	Loss: 0.066165
+2023-12-13 07:10:50,893 - root - INFO - Train Epoch: 4 [500/1157 (43%)]	Loss: 0.093256
+2023-12-13 07:11:49,808 - root - INFO - Train Epoch: 4 [600/1157 (52%)]	Loss: -0.060245
+2023-12-13 07:12:50,621 - root - INFO - Train Epoch: 4 [700/1157 (61%)]	Loss: -0.021984
+2023-12-13 07:13:48,892 - root - INFO - Train Epoch: 4 [800/1157 (69%)]	Loss: 0.095129
+2023-12-13 07:14:48,312 - root - INFO - Train Epoch: 4 [900/1157 (78%)]	Loss: -0.218145
+2023-12-13 07:15:48,671 - root - INFO - Train Epoch: 4 [1000/1157 (86%)]	Loss: 0.139885
+2023-12-13 07:16:45,316 - root - INFO - Train Epoch: 4 [1100/1157 (95%)]	Loss: -0.001424
+2023-12-13 07:17:14,826 - root - INFO - Training loss in iteration 6 epoch 4 is 0.04050845645091198
+2023-12-13 07:44:49,544 - root - INFO - Iteration 6 Epoch 4 Mean IC: 0.08482224464113061, Mean Rank IC: 0.06922708908200921, Eval loss 0.6306854700211619
+2023-12-13 07:44:58,963 - root - INFO - Train Epoch: 5 [0/1157 (0%)]	Loss: 0.107886
+2023-12-13 07:45:50,824 - root - INFO - Train Epoch: 5 [100/1157 (9%)]	Loss: 0.064745
+2023-12-13 07:46:41,972 - root - INFO - Train Epoch: 5 [200/1157 (17%)]	Loss: -0.238664
+2023-12-13 07:47:34,368 - root - INFO - Train Epoch: 5 [300/1157 (26%)]	Loss: 0.243442
+2023-12-13 07:48:29,292 - root - INFO - Train Epoch: 5 [400/1157 (35%)]	Loss: 0.079930
+2023-12-13 07:49:24,015 - root - INFO - Train Epoch: 5 [500/1157 (43%)]	Loss: -0.240738
+2023-12-13 07:50:18,770 - root - INFO - Train Epoch: 5 [600/1157 (52%)]	Loss: 0.041203
+2023-12-13 07:51:17,997 - root - INFO - Train Epoch: 5 [700/1157 (61%)]	Loss: 0.108470
+2023-12-13 07:52:18,615 - root - INFO - Train Epoch: 5 [800/1157 (69%)]	Loss: 0.144619
+2023-12-13 07:53:17,569 - root - INFO - Train Epoch: 5 [900/1157 (78%)]	Loss: 0.158782
+2023-12-13 07:54:19,010 - root - INFO - Train Epoch: 5 [1000/1157 (86%)]	Loss: -0.046315
+2023-12-13 07:55:17,317 - root - INFO - Train Epoch: 5 [1100/1157 (95%)]	Loss: 0.047368
+2023-12-13 07:55:49,036 - root - INFO - Training loss in iteration 6 epoch 5 is 0.041440983546789906
+2023-12-13 08:24:51,234 - root - INFO - Iteration 6 Epoch 5 Mean IC: 0.0785146703648755, Mean Rank IC: 0.06350444867115823, Eval loss 0.6089224048325272
+2023-12-13 08:25:01,262 - root - INFO - Train Epoch: 6 [0/1157 (0%)]	Loss: 0.376478
+2023-12-13 08:25:53,460 - root - INFO - Train Epoch: 6 [100/1157 (9%)]	Loss: 0.268155
+2023-12-13 08:26:45,159 - root - INFO - Train Epoch: 6 [200/1157 (17%)]	Loss: 0.186165
+2023-12-13 08:27:37,093 - root - INFO - Train Epoch: 6 [300/1157 (26%)]	Loss: 0.028898
+2023-12-13 08:28:29,128 - root - INFO - Train Epoch: 6 [400/1157 (35%)]	Loss: 0.168707
+2023-12-13 08:29:20,948 - root - INFO - Train Epoch: 6 [500/1157 (43%)]	Loss: 0.027132
+2023-12-13 08:30:12,222 - root - INFO - Train Epoch: 6 [600/1157 (52%)]	Loss: 0.160490
+2023-12-13 08:31:04,460 - root - INFO - Train Epoch: 6 [700/1157 (61%)]	Loss: -0.107954
+2023-12-13 08:31:55,418 - root - INFO - Train Epoch: 6 [800/1157 (69%)]	Loss: -0.334516
+2023-12-13 08:32:46,855 - root - INFO - Train Epoch: 6 [900/1157 (78%)]	Loss: 0.118792
+2023-12-13 08:33:39,113 - root - INFO - Train Epoch: 6 [1000/1157 (86%)]	Loss: 0.007806
+2023-12-13 08:34:30,736 - root - INFO - Train Epoch: 6 [1100/1157 (95%)]	Loss: -0.030280
+2023-12-13 08:34:59,788 - root - INFO - Training loss in iteration 6 epoch 6 is 0.04348693138943114
+2023-12-13 09:03:54,682 - root - INFO - Iteration 6 Epoch 6 Mean IC: 0.09536677751772213, Mean Rank IC: 0.07878105106981105, Eval loss 0.5150272775380338
+2023-12-13 09:04:06,742 - root - INFO - Train Epoch: 7 [0/1157 (0%)]	Loss: 0.112546
+2023-12-13 09:05:13,501 - root - INFO - Train Epoch: 7 [100/1157 (9%)]	Loss: 0.075406
+2023-12-13 09:06:13,192 - root - INFO - Train Epoch: 7 [200/1157 (17%)]	Loss: -0.033684
+2023-12-13 09:07:13,082 - root - INFO - Train Epoch: 7 [300/1157 (26%)]	Loss: 0.093482
+2023-12-13 09:08:13,355 - root - INFO - Train Epoch: 7 [400/1157 (35%)]	Loss: -0.024405
+2023-12-13 09:09:11,265 - root - INFO - Train Epoch: 7 [500/1157 (43%)]	Loss: 0.174733
+2023-12-13 09:10:10,849 - root - INFO - Train Epoch: 7 [600/1157 (52%)]	Loss: 0.146465
+2023-12-13 09:11:09,842 - root - INFO - Train Epoch: 7 [700/1157 (61%)]	Loss: 0.078006
+2023-12-13 09:12:04,925 - root - INFO - Train Epoch: 7 [800/1157 (69%)]	Loss: 0.158692
+2023-12-13 09:12:58,343 - root - INFO - Train Epoch: 7 [900/1157 (78%)]	Loss: 0.045177
+2023-12-13 09:13:51,532 - root - INFO - Train Epoch: 7 [1000/1157 (86%)]	Loss: -0.032597
+2023-12-13 09:14:44,541 - root - INFO - Train Epoch: 7 [1100/1157 (95%)]	Loss: 0.214188
+2023-12-13 09:15:14,428 - root - INFO - Training loss in iteration 6 epoch 7 is 0.04552393950773089
+2023-12-13 09:42:49,494 - root - INFO - Iteration 6 Epoch 7 Mean IC: 0.09381866359226329, Mean Rank IC: 0.07771600418071431, Eval loss 0.5908322864380039
+2023-12-13 09:43:00,952 - root - INFO - Train Epoch: 8 [0/1157 (0%)]	Loss: -0.001773
+2023-12-13 09:43:57,898 - root - INFO - Train Epoch: 8 [100/1157 (9%)]	Loss: 0.102797
+2023-12-13 09:44:51,374 - root - INFO - Train Epoch: 8 [200/1157 (17%)]	Loss: -0.018513
+2023-12-13 09:45:46,738 - root - INFO - Train Epoch: 8 [300/1157 (26%)]	Loss: 0.161382
+2023-12-13 09:46:43,746 - root - INFO - Train Epoch: 8 [400/1157 (35%)]	Loss: 0.181410
+2023-12-13 09:47:44,425 - root - INFO - Train Epoch: 8 [500/1157 (43%)]	Loss: -0.163971
+2023-12-13 09:48:44,032 - root - INFO - Train Epoch: 8 [600/1157 (52%)]	Loss: 0.141930
+2023-12-13 09:49:44,974 - root - INFO - Train Epoch: 8 [700/1157 (61%)]	Loss: -0.247929
+2023-12-13 09:50:45,186 - root - INFO - Train Epoch: 8 [800/1157 (69%)]	Loss: 0.049366
+2023-12-13 09:51:43,783 - root - INFO - Train Epoch: 8 [900/1157 (78%)]	Loss: 0.195863
+2023-12-13 09:52:41,563 - root - INFO - Train Epoch: 8 [1000/1157 (86%)]	Loss: 0.115072
+2023-12-13 09:53:41,290 - root - INFO - Train Epoch: 8 [1100/1157 (95%)]	Loss: 0.308193
+2023-12-13 09:54:13,826 - root - INFO - Training loss in iteration 6 epoch 8 is 0.041284162000581534
+2023-12-13 10:23:32,051 - root - INFO - Iteration 6 Epoch 8 Mean IC: 0.0792756068640003, Mean Rank IC: 0.06721884463904196, Eval loss 0.6068903141822971
+2023-12-13 10:23:39,639 - root - INFO - Train Epoch: 9 [0/1157 (0%)]	Loss: 0.068259
+2023-12-13 10:24:34,917 - root - INFO - Train Epoch: 9 [100/1157 (9%)]	Loss: -0.108701
+2023-12-13 10:25:28,863 - root - INFO - Train Epoch: 9 [200/1157 (17%)]	Loss: 0.071929
+2023-12-13 10:26:22,423 - root - INFO - Train Epoch: 9 [300/1157 (26%)]	Loss: 0.067608
+2023-12-13 10:27:16,481 - root - INFO - Train Epoch: 9 [400/1157 (35%)]	Loss: 0.158788
+2023-12-13 10:28:10,800 - root - INFO - Train Epoch: 9 [500/1157 (43%)]	Loss: -0.064604
+2023-12-13 10:29:04,118 - root - INFO - Train Epoch: 9 [600/1157 (52%)]	Loss: 0.035756
+2023-12-13 10:29:57,750 - root - INFO - Train Epoch: 9 [700/1157 (61%)]	Loss: 0.324771
+2023-12-13 10:30:50,886 - root - INFO - Train Epoch: 9 [800/1157 (69%)]	Loss: 0.163187
+2023-12-13 10:31:44,973 - root - INFO - Train Epoch: 9 [900/1157 (78%)]	Loss: 0.265653
+2023-12-13 10:32:38,873 - root - INFO - Train Epoch: 9 [1000/1157 (86%)]	Loss: -0.076572
+2023-12-13 10:33:32,375 - root - INFO - Train Epoch: 9 [1100/1157 (95%)]	Loss: -0.173530
+2023-12-13 10:34:01,525 - root - INFO - Training loss in iteration 6 epoch 9 is 0.03961776518935053
+2023-12-13 11:04:29,362 - root - INFO - Iteration 6 Epoch 9 Mean IC: 0.07860471411287541, Mean Rank IC: 0.06616790567884473, Eval loss 0.6293915868049762
+2023-12-13 11:04:29,363 - root - INFO - loading train/valid/test set ... ... 
+2023-12-13 11:04:43,732 - root - INFO - Train Epoch: 0 [0/1156 (0%)]	Loss: 0.201838
+2023-12-13 11:05:53,279 - root - INFO - Train Epoch: 0 [100/1156 (9%)]	Loss: 0.016355
+2023-12-13 11:06:55,072 - root - INFO - Train Epoch: 0 [200/1156 (17%)]	Loss: 0.031372
+2023-12-13 11:07:56,962 - root - INFO - Train Epoch: 0 [300/1156 (26%)]	Loss: 0.168098
+2023-12-13 11:09:00,974 - root - INFO - Train Epoch: 0 [400/1156 (35%)]	Loss: 0.153927
+2023-12-13 11:10:04,073 - root - INFO - Train Epoch: 0 [500/1156 (43%)]	Loss: 0.131612
+2023-12-13 11:11:03,157 - root - INFO - Train Epoch: 0 [600/1156 (52%)]	Loss: 0.179368
+2023-12-13 11:12:04,339 - root - INFO - Train Epoch: 0 [700/1156 (61%)]	Loss: 0.144206
+2023-12-13 11:13:03,064 - root - INFO - Train Epoch: 0 [800/1156 (69%)]	Loss: 0.209314
+2023-12-13 11:13:59,579 - root - INFO - Train Epoch: 0 [900/1156 (78%)]	Loss: 0.061170
+2023-12-13 11:14:55,918 - root - INFO - Train Epoch: 0 [1000/1156 (87%)]	Loss: -0.200204
+2023-12-13 11:15:52,748 - root - INFO - Train Epoch: 0 [1100/1156 (95%)]	Loss: -0.122845
+2023-12-13 11:16:24,470 - root - INFO - Training loss in iteration 7 epoch 0 is 0.04556771882110401
+2023-12-13 11:45:55,104 - root - INFO - Iteration 7 Epoch 0 Mean IC: 0.07269617304356324, Mean Rank IC: 0.05859022685364962, Eval loss 0.6288814975155724
+2023-12-13 11:46:03,692 - root - INFO - Train Epoch: 1 [0/1156 (0%)]	Loss: 0.283803
+2023-12-13 11:46:57,839 - root - INFO - Train Epoch: 1 [100/1156 (9%)]	Loss: 0.238035
+2023-12-13 11:47:52,356 - root - INFO - Train Epoch: 1 [200/1156 (17%)]	Loss: -0.049911
+2023-12-13 11:48:45,909 - root - INFO - Train Epoch: 1 [300/1156 (26%)]	Loss: 0.016589
+2023-12-13 11:49:39,410 - root - INFO - Train Epoch: 1 [400/1156 (35%)]	Loss: 0.164403
+2023-12-13 11:50:32,271 - root - INFO - Train Epoch: 1 [500/1156 (43%)]	Loss: 0.129943
+2023-12-13 11:51:26,095 - root - INFO - Train Epoch: 1 [600/1156 (52%)]	Loss: 0.152736
+2023-12-13 11:52:22,355 - root - INFO - Train Epoch: 1 [700/1156 (61%)]	Loss: 0.136106
+2023-12-13 11:53:18,936 - root - INFO - Train Epoch: 1 [800/1156 (69%)]	Loss: -0.007231
+2023-12-13 11:54:15,981 - root - INFO - Train Epoch: 1 [900/1156 (78%)]	Loss: 0.272430
+2023-12-13 11:55:13,364 - root - INFO - Train Epoch: 1 [1000/1156 (87%)]	Loss: 0.228076
+2023-12-13 11:56:10,655 - root - INFO - Train Epoch: 1 [1100/1156 (95%)]	Loss: 0.070206
+2023-12-13 11:56:41,900 - root - INFO - Training loss in iteration 7 epoch 1 is 0.046302889902338024
+2023-12-13 12:27:27,971 - root - INFO - Iteration 7 Epoch 1 Mean IC: 0.06659755900855763, Mean Rank IC: 0.05068315176816404, Eval loss 0.6237574044323753
+2023-12-13 12:27:37,293 - root - INFO - Train Epoch: 2 [0/1156 (0%)]	Loss: 0.114663
+2023-12-13 12:28:38,460 - root - INFO - Train Epoch: 2 [100/1156 (9%)]	Loss: -0.030627
+2023-12-13 12:29:34,958 - root - INFO - Train Epoch: 2 [200/1156 (17%)]	Loss: -0.022753
+2023-12-13 12:30:31,569 - root - INFO - Train Epoch: 2 [300/1156 (26%)]	Loss: -0.089747
+2023-12-13 12:31:28,210 - root - INFO - Train Epoch: 2 [400/1156 (35%)]	Loss: 0.083608
+2023-12-13 12:32:24,888 - root - INFO - Train Epoch: 2 [500/1156 (43%)]	Loss: 0.205498
+2023-12-13 12:33:21,554 - root - INFO - Train Epoch: 2 [600/1156 (52%)]	Loss: -0.112210
+2023-12-13 12:34:18,443 - root - INFO - Train Epoch: 2 [700/1156 (61%)]	Loss: 0.178619
+2023-12-13 12:35:15,121 - root - INFO - Train Epoch: 2 [800/1156 (69%)]	Loss: -0.017076
+2023-12-13 12:36:11,574 - root - INFO - Train Epoch: 2 [900/1156 (78%)]	Loss: -0.023866
+2023-12-13 12:37:08,923 - root - INFO - Train Epoch: 2 [1000/1156 (87%)]	Loss: -0.195426
+2023-12-13 12:38:05,424 - root - INFO - Train Epoch: 2 [1100/1156 (95%)]	Loss: 0.279920
+2023-12-13 12:38:36,508 - root - INFO - Training loss in iteration 7 epoch 2 is 0.04616213493229609
+2023-12-13 13:09:35,372 - root - INFO - Iteration 7 Epoch 2 Mean IC: 0.07270447882428888, Mean Rank IC: 0.057764984091213015, Eval loss 0.6949807851893421
+2023-12-13 13:09:45,853 - root - INFO - Train Epoch: 3 [0/1156 (0%)]	Loss: -0.151525
+2023-12-13 13:10:45,773 - root - INFO - Train Epoch: 3 [100/1156 (9%)]	Loss: 0.046394
+2023-12-13 13:11:42,453 - root - INFO - Train Epoch: 3 [200/1156 (17%)]	Loss: 0.120982
+2023-12-13 13:12:40,863 - root - INFO - Train Epoch: 3 [300/1156 (26%)]	Loss: 0.024285
+2023-12-13 13:13:37,606 - root - INFO - Train Epoch: 3 [400/1156 (35%)]	Loss: -0.016270
+2023-12-13 13:14:34,184 - root - INFO - Train Epoch: 3 [500/1156 (43%)]	Loss: -0.164009
+2023-12-13 13:15:31,768 - root - INFO - Train Epoch: 3 [600/1156 (52%)]	Loss: -0.093443
+2023-12-13 13:16:29,101 - root - INFO - Train Epoch: 3 [700/1156 (61%)]	Loss: -0.019027
+2023-12-13 13:17:25,786 - root - INFO - Train Epoch: 3 [800/1156 (69%)]	Loss: 0.165566
+2023-12-13 13:18:22,560 - root - INFO - Train Epoch: 3 [900/1156 (78%)]	Loss: 0.141222
+2023-12-13 13:19:19,158 - root - INFO - Train Epoch: 3 [1000/1156 (87%)]	Loss: 0.008693
+2023-12-13 13:20:16,365 - root - INFO - Train Epoch: 3 [1100/1156 (95%)]	Loss: 0.170088
+2023-12-13 13:20:47,658 - root - INFO - Training loss in iteration 7 epoch 3 is 0.04376508030640831
+2023-12-13 13:50:09,336 - root - INFO - Iteration 7 Epoch 3 Mean IC: 0.0690568537597924, Mean Rank IC: 0.05493508652283775, Eval loss 0.7031742867864208
+2023-12-13 13:50:19,055 - root - INFO - Train Epoch: 4 [0/1156 (0%)]	Loss: -0.123473
+2023-12-13 13:51:13,355 - root - INFO - Train Epoch: 4 [100/1156 (9%)]	Loss: 0.264038
+2023-12-13 13:52:06,744 - root - INFO - Train Epoch: 4 [200/1156 (17%)]	Loss: -0.367073
+2023-12-13 13:53:00,413 - root - INFO - Train Epoch: 4 [300/1156 (26%)]	Loss: -0.017319
+2023-12-13 13:53:53,619 - root - INFO - Train Epoch: 4 [400/1156 (35%)]	Loss: 0.136000
+2023-12-13 13:54:51,409 - root - INFO - Train Epoch: 4 [500/1156 (43%)]	Loss: -0.043320
+2023-12-13 13:55:48,898 - root - INFO - Train Epoch: 4 [600/1156 (52%)]	Loss: 0.094235
+2023-12-13 13:56:46,372 - root - INFO - Train Epoch: 4 [700/1156 (61%)]	Loss: 0.078601
+2023-12-13 13:57:42,793 - root - INFO - Train Epoch: 4 [800/1156 (69%)]	Loss: -0.063344
+2023-12-13 13:58:39,231 - root - INFO - Train Epoch: 4 [900/1156 (78%)]	Loss: 0.169157
+2023-12-13 13:59:35,574 - root - INFO - Train Epoch: 4 [1000/1156 (87%)]	Loss: -0.088942
+2023-12-13 14:00:33,115 - root - INFO - Train Epoch: 4 [1100/1156 (95%)]	Loss: 0.135688
+2023-12-13 14:01:04,990 - root - INFO - Training loss in iteration 7 epoch 4 is 0.0414313962328599
+2023-12-13 14:33:11,572 - root - INFO - Iteration 7 Epoch 4 Mean IC: 0.08297777084735272, Mean Rank IC: 0.07056734487107752, Eval loss 0.6571066182091403
+2023-12-13 14:33:20,386 - root - INFO - Train Epoch: 5 [0/1156 (0%)]	Loss: 0.056847
+2023-12-13 14:34:17,181 - root - INFO - Train Epoch: 5 [100/1156 (9%)]	Loss: 0.059291
+2023-12-13 14:35:10,781 - root - INFO - Train Epoch: 5 [200/1156 (17%)]	Loss: 0.202054
+2023-12-13 14:36:04,861 - root - INFO - Train Epoch: 5 [300/1156 (26%)]	Loss: 0.088480
+2023-12-13 14:36:59,042 - root - INFO - Train Epoch: 5 [400/1156 (35%)]	Loss: 0.140603
+2023-12-13 14:37:52,902 - root - INFO - Train Epoch: 5 [500/1156 (43%)]	Loss: 0.224981
+2023-12-13 14:38:46,574 - root - INFO - Train Epoch: 5 [600/1156 (52%)]	Loss: -0.010927
+2023-12-13 14:39:39,866 - root - INFO - Train Epoch: 5 [700/1156 (61%)]	Loss: -0.204424
+2023-12-13 14:40:33,110 - root - INFO - Train Epoch: 5 [800/1156 (69%)]	Loss: 0.174488
+2023-12-13 14:41:26,321 - root - INFO - Train Epoch: 5 [900/1156 (78%)]	Loss: 0.043552
+2023-12-13 14:42:20,164 - root - INFO - Train Epoch: 5 [1000/1156 (87%)]	Loss: 0.129222
+2023-12-13 14:43:13,610 - root - INFO - Train Epoch: 5 [1100/1156 (95%)]	Loss: -0.016100
+2023-12-13 14:43:42,963 - root - INFO - Training loss in iteration 7 epoch 5 is 0.04143789673552794
+2023-12-13 15:16:38,162 - root - INFO - Iteration 7 Epoch 5 Mean IC: 0.07975723516379737, Mean Rank IC: 0.06548693598249981, Eval loss 0.6536441609692671
+2023-12-13 15:16:56,172 - root - INFO - Train Epoch: 6 [0/1156 (0%)]	Loss: -0.091361
+2023-12-13 15:18:30,429 - root - INFO - Train Epoch: 6 [100/1156 (9%)]	Loss: 0.112685
+2023-12-13 15:19:56,134 - root - INFO - Train Epoch: 6 [200/1156 (17%)]	Loss: -0.300759
+2023-12-13 15:21:22,162 - root - INFO - Train Epoch: 6 [300/1156 (26%)]	Loss: -0.134736
+2023-12-13 15:22:44,633 - root - INFO - Train Epoch: 6 [400/1156 (35%)]	Loss: 0.036927
+2023-12-13 15:24:10,835 - root - INFO - Train Epoch: 6 [500/1156 (43%)]	Loss: -0.018328
+2023-12-13 15:25:33,467 - root - INFO - Train Epoch: 6 [600/1156 (52%)]	Loss: 0.062712
+2023-12-13 15:26:55,324 - root - INFO - Train Epoch: 6 [700/1156 (61%)]	Loss: -0.010131
+2023-12-13 15:28:19,001 - root - INFO - Train Epoch: 6 [800/1156 (69%)]	Loss: -0.451806
+2023-12-13 15:29:42,665 - root - INFO - Train Epoch: 6 [900/1156 (78%)]	Loss: 0.254981
+2023-12-13 15:30:51,187 - root - INFO - Train Epoch: 6 [1000/1156 (87%)]	Loss: 0.153544
+2023-12-13 15:31:50,956 - root - INFO - Train Epoch: 6 [1100/1156 (95%)]	Loss: 0.013481
+2023-12-13 15:32:25,229 - root - INFO - Training loss in iteration 7 epoch 6 is 0.042183802447001414
+2023-12-13 16:05:50,310 - root - INFO - Iteration 7 Epoch 6 Mean IC: 0.09398621463920125, Mean Rank IC: 0.08405267083573054, Eval loss 0.6386621877735044
+2023-12-13 16:06:04,804 - root - INFO - Train Epoch: 7 [0/1156 (0%)]	Loss: 0.179254
+2023-12-13 16:07:11,252 - root - INFO - Train Epoch: 7 [100/1156 (9%)]	Loss: 0.181708
+2023-12-13 16:08:11,635 - root - INFO - Train Epoch: 7 [200/1156 (17%)]	Loss: -0.109755
+2023-12-13 16:09:11,528 - root - INFO - Train Epoch: 7 [300/1156 (26%)]	Loss: -0.168739
+2023-12-13 16:10:12,169 - root - INFO - Train Epoch: 7 [400/1156 (35%)]	Loss: 0.096394
+2023-12-13 16:11:12,926 - root - INFO - Train Epoch: 7 [500/1156 (43%)]	Loss: 0.045256
+2023-12-13 16:12:14,176 - root - INFO - Train Epoch: 7 [600/1156 (52%)]	Loss: -0.212542
+2023-12-13 16:13:15,493 - root - INFO - Train Epoch: 7 [700/1156 (61%)]	Loss: -0.099193
+2023-12-13 16:14:15,499 - root - INFO - Train Epoch: 7 [800/1156 (69%)]	Loss: 0.111899
+2023-12-13 16:15:15,690 - root - INFO - Train Epoch: 7 [900/1156 (78%)]	Loss: 0.179266
+2023-12-13 16:16:15,829 - root - INFO - Train Epoch: 7 [1000/1156 (87%)]	Loss: 0.167396
+2023-12-13 16:17:15,418 - root - INFO - Train Epoch: 7 [1100/1156 (95%)]	Loss: 0.019032
+2023-12-13 16:17:48,650 - root - INFO - Training loss in iteration 7 epoch 7 is 0.041136533537537996
+2023-12-13 16:51:18,828 - root - INFO - Iteration 7 Epoch 7 Mean IC: 0.0842155315836608, Mean Rank IC: 0.07144612055241323, Eval loss 0.6303751173088089
+2023-12-13 16:51:29,560 - root - INFO - Train Epoch: 8 [0/1156 (0%)]	Loss: 0.046005
+2023-12-13 16:52:29,415 - root - INFO - Train Epoch: 8 [100/1156 (9%)]	Loss: -0.022399
+2023-12-13 16:53:28,272 - root - INFO - Train Epoch: 8 [200/1156 (17%)]	Loss: 0.108376
+2023-12-13 16:54:26,138 - root - INFO - Train Epoch: 8 [300/1156 (26%)]	Loss: -0.035820
+2023-12-13 16:55:24,754 - root - INFO - Train Epoch: 8 [400/1156 (35%)]	Loss: -0.005882
+2023-12-13 16:56:22,588 - root - INFO - Train Epoch: 8 [500/1156 (43%)]	Loss: -0.079784
+2023-12-13 16:57:20,654 - root - INFO - Train Epoch: 8 [600/1156 (52%)]	Loss: -0.043402
+2023-12-13 16:58:19,008 - root - INFO - Train Epoch: 8 [700/1156 (61%)]	Loss: 0.136263
+2023-12-13 16:59:21,315 - root - INFO - Train Epoch: 8 [800/1156 (69%)]	Loss: 0.096344
+2023-12-13 17:00:20,802 - root - INFO - Train Epoch: 8 [900/1156 (78%)]	Loss: -0.015467
+2023-12-13 17:01:25,245 - root - INFO - Train Epoch: 8 [1000/1156 (87%)]	Loss: 0.095686
+2023-12-13 17:02:49,612 - root - INFO - Train Epoch: 8 [1100/1156 (95%)]	Loss: -0.021717
+2023-12-13 17:03:30,274 - root - INFO - Training loss in iteration 7 epoch 8 is 0.039149787799039514
+2023-12-13 17:36:42,376 - root - INFO - Iteration 7 Epoch 8 Mean IC: 0.082806202111485, Mean Rank IC: 0.07399884064503612, Eval loss 0.5953354436919522
+2023-12-13 17:36:55,205 - root - INFO - Train Epoch: 9 [0/1156 (0%)]	Loss: 0.038840
+2023-12-13 17:37:56,900 - root - INFO - Train Epoch: 9 [100/1156 (9%)]	Loss: 0.093207
+2023-12-13 17:38:57,865 - root - INFO - Train Epoch: 9 [200/1156 (17%)]	Loss: 0.087507
+2023-12-13 17:40:00,762 - root - INFO - Train Epoch: 9 [300/1156 (26%)]	Loss: 0.254277
+2023-12-13 17:41:01,239 - root - INFO - Train Epoch: 9 [400/1156 (35%)]	Loss: 0.110691
+2023-12-13 17:41:59,626 - root - INFO - Train Epoch: 9 [500/1156 (43%)]	Loss: -0.090534
+2023-12-13 17:42:57,211 - root - INFO - Train Epoch: 9 [600/1156 (52%)]	Loss: 0.246646
+2023-12-13 17:43:56,799 - root - INFO - Train Epoch: 9 [700/1156 (61%)]	Loss: 0.069622
+2023-12-13 17:44:55,786 - root - INFO - Train Epoch: 9 [800/1156 (69%)]	Loss: 0.122137
+2023-12-13 17:45:54,102 - root - INFO - Train Epoch: 9 [900/1156 (78%)]	Loss: -0.022746
+2023-12-13 17:46:53,104 - root - INFO - Train Epoch: 9 [1000/1156 (87%)]	Loss: -0.124468
+2023-12-13 17:47:50,879 - root - INFO - Train Epoch: 9 [1100/1156 (95%)]	Loss: -0.124561
+2023-12-13 17:48:23,575 - root - INFO - Training loss in iteration 7 epoch 9 is 0.042485536723864945
+2023-12-13 18:21:14,838 - root - INFO - Iteration 7 Epoch 9 Mean IC: 0.08672925415151818, Mean Rank IC: 0.07697533772072138, Eval loss 0.6160188710983888
+2023-12-13 18:21:14,839 - root - INFO - loading train/valid/test set ... ... 
+2023-12-13 18:21:27,613 - root - INFO - Train Epoch: 0 [0/1155 (0%)]	Loss: -0.008533
+2023-12-13 18:22:30,704 - root - INFO - Train Epoch: 0 [100/1155 (9%)]	Loss: -0.026648
+2023-12-13 18:23:33,292 - root - INFO - Train Epoch: 0 [200/1155 (17%)]	Loss: 0.219415
+2023-12-13 18:24:34,251 - root - INFO - Train Epoch: 0 [300/1155 (26%)]	Loss: 0.066053
+2023-12-13 18:25:36,553 - root - INFO - Train Epoch: 0 [400/1155 (35%)]	Loss: 0.095586
+2023-12-13 18:26:39,650 - root - INFO - Train Epoch: 0 [500/1155 (43%)]	Loss: 0.084583
+2023-12-13 18:27:42,076 - root - INFO - Train Epoch: 0 [600/1155 (52%)]	Loss: 0.250423
+2023-12-13 18:28:42,662 - root - INFO - Train Epoch: 0 [700/1155 (61%)]	Loss: 0.067465
+2023-12-13 18:29:45,931 - root - INFO - Train Epoch: 0 [800/1155 (69%)]	Loss: 0.154113
+2023-12-13 18:30:48,194 - root - INFO - Train Epoch: 0 [900/1155 (78%)]	Loss: 0.253672
+2023-12-13 18:31:48,411 - root - INFO - Train Epoch: 0 [1000/1155 (87%)]	Loss: 0.034738
+2023-12-13 18:32:50,141 - root - INFO - Train Epoch: 0 [1100/1155 (95%)]	Loss: 0.051969
+2023-12-13 18:33:23,454 - root - INFO - Training loss in iteration 8 epoch 0 is 0.05855917642255882
+2023-12-13 19:09:27,151 - root - INFO - Iteration 8 Epoch 0 Mean IC: 0.11343271845490327, Mean Rank IC: 0.1034164653960213, Eval loss 0.5744570264355146
+2023-12-13 19:09:40,719 - root - INFO - Train Epoch: 1 [0/1155 (0%)]	Loss: 0.156512
+2023-12-13 19:10:38,432 - root - INFO - Train Epoch: 1 [100/1155 (9%)]	Loss: 0.108341
+2023-12-13 19:11:34,899 - root - INFO - Train Epoch: 1 [200/1155 (17%)]	Loss: 0.273364
+2023-12-13 19:12:31,431 - root - INFO - Train Epoch: 1 [300/1155 (26%)]	Loss: -0.073211
+2023-12-13 19:13:27,840 - root - INFO - Train Epoch: 1 [400/1155 (35%)]	Loss: -0.020284
+2023-12-13 19:14:23,492 - root - INFO - Train Epoch: 1 [500/1155 (43%)]	Loss: -0.058876
+2023-12-13 19:15:20,366 - root - INFO - Train Epoch: 1 [600/1155 (52%)]	Loss: 0.351444
+2023-12-13 19:16:16,718 - root - INFO - Train Epoch: 1 [700/1155 (61%)]	Loss: -0.123725
+2023-12-13 19:17:10,107 - root - INFO - Train Epoch: 1 [800/1155 (69%)]	Loss: 0.255978
+2023-12-13 19:18:06,142 - root - INFO - Train Epoch: 1 [900/1155 (78%)]	Loss: -0.134185
+2023-12-13 19:18:59,357 - root - INFO - Train Epoch: 1 [1000/1155 (87%)]	Loss: 0.076370
+2023-12-13 19:19:52,766 - root - INFO - Train Epoch: 1 [1100/1155 (95%)]	Loss: -0.091948
+2023-12-13 19:20:22,087 - root - INFO - Training loss in iteration 8 epoch 1 is 0.051342007008207825
+2023-12-13 19:53:34,446 - root - INFO - Iteration 8 Epoch 1 Mean IC: 0.0957210317165198, Mean Rank IC: 0.07876515937521153, Eval loss 0.5188493212309394
+2023-12-13 19:53:53,363 - root - INFO - Train Epoch: 2 [0/1155 (0%)]	Loss: -0.011189
+2023-12-13 19:55:06,701 - root - INFO - Train Epoch: 2 [100/1155 (9%)]	Loss: -0.117692
+2023-12-13 19:56:13,008 - root - INFO - Train Epoch: 2 [200/1155 (17%)]	Loss: -0.023771
+2023-12-13 19:57:16,032 - root - INFO - Train Epoch: 2 [300/1155 (26%)]	Loss: 0.019640
+2023-12-13 19:58:22,375 - root - INFO - Train Epoch: 2 [400/1155 (35%)]	Loss: 0.209401
+2023-12-13 19:59:28,459 - root - INFO - Train Epoch: 2 [500/1155 (43%)]	Loss: -0.170910
+2023-12-13 20:00:35,087 - root - INFO - Train Epoch: 2 [600/1155 (52%)]	Loss: 0.138569
+2023-12-13 20:01:41,723 - root - INFO - Train Epoch: 2 [700/1155 (61%)]	Loss: 0.169683
+2023-12-13 20:02:45,956 - root - INFO - Train Epoch: 2 [800/1155 (69%)]	Loss: 0.191411
+2023-12-13 20:03:50,604 - root - INFO - Train Epoch: 2 [900/1155 (78%)]	Loss: -0.195932
+2023-12-13 20:04:55,335 - root - INFO - Train Epoch: 2 [1000/1155 (87%)]	Loss: 0.039416
+2023-12-13 20:06:01,191 - root - INFO - Train Epoch: 2 [1100/1155 (95%)]	Loss: 0.051666
+2023-12-13 20:06:32,798 - root - INFO - Training loss in iteration 8 epoch 2 is 0.04962222141362888
+2023-12-13 20:39:54,852 - root - INFO - Iteration 8 Epoch 2 Mean IC: 0.1192645217561371, Mean Rank IC: 0.11116398746289557, Eval loss 0.46584363361444986
+2023-12-13 20:40:05,603 - root - INFO - Train Epoch: 3 [0/1155 (0%)]	Loss: 0.111007
+2023-12-13 20:40:58,227 - root - INFO - Train Epoch: 3 [100/1155 (9%)]	Loss: 0.228137
+2023-12-13 20:41:50,177 - root - INFO - Train Epoch: 3 [200/1155 (17%)]	Loss: -0.157349
+2023-12-13 20:42:42,535 - root - INFO - Train Epoch: 3 [300/1155 (26%)]	Loss: 0.085374
+2023-12-13 20:43:34,385 - root - INFO - Train Epoch: 3 [400/1155 (35%)]	Loss: 0.220177
+2023-12-13 20:44:26,499 - root - INFO - Train Epoch: 3 [500/1155 (43%)]	Loss: 0.041029
+2023-12-13 20:45:17,062 - root - INFO - Train Epoch: 3 [600/1155 (52%)]	Loss: 0.023944
+2023-12-13 20:46:09,674 - root - INFO - Train Epoch: 3 [700/1155 (61%)]	Loss: -0.029514
+2023-12-13 20:47:01,502 - root - INFO - Train Epoch: 3 [800/1155 (69%)]	Loss: 0.090493
+2023-12-13 20:47:53,977 - root - INFO - Train Epoch: 3 [900/1155 (78%)]	Loss: -0.044039
+2023-12-13 20:48:45,868 - root - INFO - Train Epoch: 3 [1000/1155 (87%)]	Loss: 0.000709
+2023-12-13 20:49:38,190 - root - INFO - Train Epoch: 3 [1100/1155 (95%)]	Loss: 0.051266
+2023-12-13 20:50:06,851 - root - INFO - Training loss in iteration 8 epoch 3 is 0.05198138936128451
+2023-12-13 21:24:07,454 - root - INFO - Iteration 8 Epoch 3 Mean IC: 0.1164913173923518, Mean Rank IC: 0.10645342482780414, Eval loss 0.44576174965120635
+2023-12-13 21:24:18,131 - root - INFO - Train Epoch: 4 [0/1155 (0%)]	Loss: 0.165394
+2023-12-13 21:25:12,502 - root - INFO - Train Epoch: 4 [100/1155 (9%)]	Loss: -0.084073
+2023-12-13 21:26:05,631 - root - INFO - Train Epoch: 4 [200/1155 (17%)]	Loss: -0.023882
+2023-12-13 21:26:59,326 - root - INFO - Train Epoch: 4 [300/1155 (26%)]	Loss: 0.207346
+2023-12-13 21:27:52,587 - root - INFO - Train Epoch: 4 [400/1155 (35%)]	Loss: -0.039668
+2023-12-13 21:28:45,190 - root - INFO - Train Epoch: 4 [500/1155 (43%)]	Loss: 0.093527
+2023-12-13 21:29:37,517 - root - INFO - Train Epoch: 4 [600/1155 (52%)]	Loss: 0.076773
+2023-12-13 21:30:29,966 - root - INFO - Train Epoch: 4 [700/1155 (61%)]	Loss: 0.090510
+2023-12-13 21:31:23,684 - root - INFO - Train Epoch: 4 [800/1155 (69%)]	Loss: 0.062512
+2023-12-13 21:32:15,748 - root - INFO - Train Epoch: 4 [900/1155 (78%)]	Loss: 0.054331
+2023-12-13 21:33:08,366 - root - INFO - Train Epoch: 4 [1000/1155 (87%)]	Loss: -0.246481
+2023-12-13 21:34:00,115 - root - INFO - Train Epoch: 4 [1100/1155 (95%)]	Loss: -0.072852
+2023-12-13 21:34:27,791 - root - INFO - Training loss in iteration 8 epoch 4 is 0.04812728489116157
+2023-12-13 22:07:18,983 - root - INFO - Iteration 8 Epoch 4 Mean IC: 0.11007462249380831, Mean Rank IC: 0.09975261023168126, Eval loss 0.4521018966971111
+2023-12-13 22:07:32,907 - root - INFO - Train Epoch: 5 [0/1155 (0%)]	Loss: 0.324224
+2023-12-13 22:08:29,574 - root - INFO - Train Epoch: 5 [100/1155 (9%)]	Loss: 0.069868
+2023-12-13 22:09:24,214 - root - INFO - Train Epoch: 5 [200/1155 (17%)]	Loss: 0.041826
+2023-12-13 22:10:18,748 - root - INFO - Train Epoch: 5 [300/1155 (26%)]	Loss: -0.154106
+2023-12-13 22:11:13,717 - root - INFO - Train Epoch: 5 [400/1155 (35%)]	Loss: 0.007375
+2023-12-13 22:12:08,814 - root - INFO - Train Epoch: 5 [500/1155 (43%)]	Loss: 0.104461
+2023-12-13 22:13:02,586 - root - INFO - Train Epoch: 5 [600/1155 (52%)]	Loss: 0.415152
+2023-12-13 22:13:56,461 - root - INFO - Train Epoch: 5 [700/1155 (61%)]	Loss: 0.138148
+2023-12-13 22:14:50,613 - root - INFO - Train Epoch: 5 [800/1155 (69%)]	Loss: 0.075385
+2023-12-13 22:15:45,994 - root - INFO - Train Epoch: 5 [900/1155 (78%)]	Loss: -0.039414
+2023-12-13 22:16:41,123 - root - INFO - Train Epoch: 5 [1000/1155 (87%)]	Loss: -0.101491
+2023-12-13 22:17:35,281 - root - INFO - Train Epoch: 5 [1100/1155 (95%)]	Loss: 0.044945
+2023-12-13 22:18:04,895 - root - INFO - Training loss in iteration 8 epoch 5 is 0.04747484023178811
+2023-12-13 22:51:00,020 - root - INFO - Iteration 8 Epoch 5 Mean IC: 0.09450267332054123, Mean Rank IC: 0.07562355874987786, Eval loss 0.45853685069476624
+2023-12-13 22:51:12,128 - root - INFO - Train Epoch: 6 [0/1155 (0%)]	Loss: 0.258805
+2023-12-13 22:52:10,818 - root - INFO - Train Epoch: 6 [100/1155 (9%)]	Loss: -0.059494
+2023-12-13 22:53:08,992 - root - INFO - Train Epoch: 6 [200/1155 (17%)]	Loss: 0.014876
+2023-12-13 22:54:06,342 - root - INFO - Train Epoch: 6 [300/1155 (26%)]	Loss: 0.186849
+2023-12-13 22:55:04,819 - root - INFO - Train Epoch: 6 [400/1155 (35%)]	Loss: 0.227235
+2023-12-13 22:56:01,795 - root - INFO - Train Epoch: 6 [500/1155 (43%)]	Loss: 0.186072
+2023-12-13 22:57:00,006 - root - INFO - Train Epoch: 6 [600/1155 (52%)]	Loss: 0.159173
+2023-12-13 22:57:55,443 - root - INFO - Train Epoch: 6 [700/1155 (61%)]	Loss: -0.306943
+2023-12-13 22:58:51,703 - root - INFO - Train Epoch: 6 [800/1155 (69%)]	Loss: 0.018598
+2023-12-13 22:59:49,037 - root - INFO - Train Epoch: 6 [900/1155 (78%)]	Loss: -0.045636
+2023-12-13 23:00:44,351 - root - INFO - Train Epoch: 6 [1000/1155 (87%)]	Loss: 0.041393
+2023-12-13 23:01:50,795 - root - INFO - Train Epoch: 6 [1100/1155 (95%)]	Loss: 0.022076
+2023-12-13 23:02:23,953 - root - INFO - Training loss in iteration 8 epoch 6 is 0.051989590586263894
+2023-12-13 23:36:31,128 - root - INFO - Iteration 8 Epoch 6 Mean IC: 0.1119440449583785, Mean Rank IC: 0.09980155249762408, Eval loss 0.46842790201858236
+2023-12-13 23:36:39,981 - root - INFO - Train Epoch: 7 [0/1155 (0%)]	Loss: -0.001325
+2023-12-13 23:37:34,988 - root - INFO - Train Epoch: 7 [100/1155 (9%)]	Loss: 0.072867
+2023-12-13 23:38:27,880 - root - INFO - Train Epoch: 7 [200/1155 (17%)]	Loss: -0.017825
+2023-12-13 23:39:21,153 - root - INFO - Train Epoch: 7 [300/1155 (26%)]	Loss: 0.072538
+2023-12-13 23:40:14,376 - root - INFO - Train Epoch: 7 [400/1155 (35%)]	Loss: 0.053301
+2023-12-13 23:41:07,040 - root - INFO - Train Epoch: 7 [500/1155 (43%)]	Loss: 0.018516
+2023-12-13 23:42:00,669 - root - INFO - Train Epoch: 7 [600/1155 (52%)]	Loss: -0.036826
+2023-12-13 23:42:53,932 - root - INFO - Train Epoch: 7 [700/1155 (61%)]	Loss: 0.033405
+2023-12-13 23:43:47,182 - root - INFO - Train Epoch: 7 [800/1155 (69%)]	Loss: -0.209659
+2023-12-13 23:44:39,934 - root - INFO - Train Epoch: 7 [900/1155 (78%)]	Loss: 0.226570
+2023-12-13 23:45:33,659 - root - INFO - Train Epoch: 7 [1000/1155 (87%)]	Loss: -0.131112
+2023-12-13 23:46:26,436 - root - INFO - Train Epoch: 7 [1100/1155 (95%)]	Loss: 0.133122
+2023-12-13 23:46:55,524 - root - INFO - Training loss in iteration 8 epoch 7 is 0.043434407681355744
+2023-12-14 00:19:23,485 - root - INFO - Iteration 8 Epoch 7 Mean IC: 0.12023066678908442, Mean Rank IC: 0.11161186801458406, Eval loss 0.4687184068401164
+2023-12-14 00:19:32,916 - root - INFO - Train Epoch: 8 [0/1155 (0%)]	Loss: 0.196412
+2023-12-14 00:20:27,512 - root - INFO - Train Epoch: 8 [100/1155 (9%)]	Loss: 0.041634
+2023-12-14 00:21:21,065 - root - INFO - Train Epoch: 8 [200/1155 (17%)]	Loss: 0.053394
+2023-12-14 00:22:14,151 - root - INFO - Train Epoch: 8 [300/1155 (26%)]	Loss: 0.047379
+2023-12-14 00:23:07,214 - root - INFO - Train Epoch: 8 [400/1155 (35%)]	Loss: -0.114109
+2023-12-14 00:24:00,617 - root - INFO - Train Epoch: 8 [500/1155 (43%)]	Loss: 0.025417
+2023-12-14 00:24:53,177 - root - INFO - Train Epoch: 8 [600/1155 (52%)]	Loss: 0.166562
+2023-12-14 00:25:46,492 - root - INFO - Train Epoch: 8 [700/1155 (61%)]	Loss: 0.322980
+2023-12-14 00:26:39,589 - root - INFO - Train Epoch: 8 [800/1155 (69%)]	Loss: -0.021456
+2023-12-14 00:27:32,229 - root - INFO - Train Epoch: 8 [900/1155 (78%)]	Loss: 0.033084
+2023-12-14 00:28:25,459 - root - INFO - Train Epoch: 8 [1000/1155 (87%)]	Loss: -0.240174
+2023-12-14 00:29:18,435 - root - INFO - Train Epoch: 8 [1100/1155 (95%)]	Loss: 0.182307
+2023-12-14 00:29:47,093 - root - INFO - Training loss in iteration 8 epoch 8 is 0.048841497321407516
+2023-12-14 01:03:37,711 - root - INFO - Iteration 8 Epoch 8 Mean IC: 0.11266712303004618, Mean Rank IC: 0.10177186413125783, Eval loss 0.400277112921079
+2023-12-14 01:03:53,020 - root - INFO - Train Epoch: 9 [0/1155 (0%)]	Loss: 0.180029
+2023-12-14 01:04:49,040 - root - INFO - Train Epoch: 9 [100/1155 (9%)]	Loss: -0.104270
+2023-12-14 01:05:43,317 - root - INFO - Train Epoch: 9 [200/1155 (17%)]	Loss: 0.069119
+2023-12-14 01:06:38,736 - root - INFO - Train Epoch: 9 [300/1155 (26%)]	Loss: 0.100465
+2023-12-14 01:07:32,903 - root - INFO - Train Epoch: 9 [400/1155 (35%)]	Loss: -0.033717
+2023-12-14 01:08:27,331 - root - INFO - Train Epoch: 9 [500/1155 (43%)]	Loss: 0.083245
+2023-12-14 01:09:20,225 - root - INFO - Train Epoch: 9 [600/1155 (52%)]	Loss: 0.047889
+2023-12-14 01:10:13,231 - root - INFO - Train Epoch: 9 [700/1155 (61%)]	Loss: 0.006352
+2023-12-14 01:11:05,064 - root - INFO - Train Epoch: 9 [800/1155 (69%)]	Loss: -0.003134
+2023-12-14 01:11:57,178 - root - INFO - Train Epoch: 9 [900/1155 (78%)]	Loss: 0.357928
+2023-12-14 01:12:48,872 - root - INFO - Train Epoch: 9 [1000/1155 (87%)]	Loss: 0.129698
+2023-12-14 01:13:40,715 - root - INFO - Train Epoch: 9 [1100/1155 (95%)]	Loss: -0.054595
+2023-12-14 01:14:08,954 - root - INFO - Training loss in iteration 8 epoch 9 is 0.043290474565772265
+2023-12-14 01:46:42,630 - root - INFO - Iteration 8 Epoch 9 Mean IC: 0.106980437067265, Mean Rank IC: 0.09373856777957174, Eval loss 0.3793466129788646
+2023-12-14 01:46:42,631 - root - INFO - loading train/valid/test set ... ... 
+2023-12-14 01:46:55,255 - root - INFO - Train Epoch: 0 [0/1154 (0%)]	Loss: 0.115858
+2023-12-14 01:47:50,078 - root - INFO - Train Epoch: 0 [100/1154 (9%)]	Loss: -0.148312
+2023-12-14 01:48:41,384 - root - INFO - Train Epoch: 0 [200/1154 (17%)]	Loss: 0.096007
+2023-12-14 01:49:33,345 - root - INFO - Train Epoch: 0 [300/1154 (26%)]	Loss: 0.264035
+2023-12-14 01:50:24,167 - root - INFO - Train Epoch: 0 [400/1154 (35%)]	Loss: -0.037914
+2023-12-14 01:51:15,741 - root - INFO - Train Epoch: 0 [500/1154 (43%)]	Loss: -0.129357
+2023-12-14 01:52:07,394 - root - INFO - Train Epoch: 0 [600/1154 (52%)]	Loss: 0.150556
+2023-12-14 01:52:58,975 - root - INFO - Train Epoch: 0 [700/1154 (61%)]	Loss: 0.047072
+2023-12-14 01:53:51,205 - root - INFO - Train Epoch: 0 [800/1154 (69%)]	Loss: -0.071557
+2023-12-14 01:54:42,817 - root - INFO - Train Epoch: 0 [900/1154 (78%)]	Loss: 0.087947
+2023-12-14 01:55:34,574 - root - INFO - Train Epoch: 0 [1000/1154 (87%)]	Loss: -0.055208
+2023-12-14 01:56:26,998 - root - INFO - Train Epoch: 0 [1100/1154 (95%)]	Loss: -0.013611
+2023-12-14 01:56:55,112 - root - INFO - Training loss in iteration 9 epoch 0 is 0.04886117348353826
+2023-12-14 02:33:15,699 - root - INFO - Iteration 9 Epoch 0 Mean IC: 0.12879857445647555, Mean Rank IC: 0.11532998913639295, Eval loss 0.3040637634386701
+2023-12-14 02:33:32,337 - root - INFO - Train Epoch: 1 [0/1154 (0%)]	Loss: 0.160996
+2023-12-14 02:34:49,952 - root - INFO - Train Epoch: 1 [100/1154 (9%)]	Loss: -0.001096
+2023-12-14 02:36:01,025 - root - INFO - Train Epoch: 1 [200/1154 (17%)]	Loss: -0.128139
+2023-12-14 02:37:13,607 - root - INFO - Train Epoch: 1 [300/1154 (26%)]	Loss: -0.140634
+2023-12-14 02:38:22,571 - root - INFO - Train Epoch: 1 [400/1154 (35%)]	Loss: -0.188561
+2023-12-14 02:39:29,663 - root - INFO - Train Epoch: 1 [500/1154 (43%)]	Loss: 0.093261
+2023-12-14 02:40:39,102 - root - INFO - Train Epoch: 1 [600/1154 (52%)]	Loss: -0.038357
+2023-12-14 02:41:51,275 - root - INFO - Train Epoch: 1 [700/1154 (61%)]	Loss: 0.243763
+2023-12-14 02:43:00,870 - root - INFO - Train Epoch: 1 [800/1154 (69%)]	Loss: 0.111751
+2023-12-14 02:44:14,133 - root - INFO - Train Epoch: 1 [900/1154 (78%)]	Loss: -0.049501
+2023-12-14 02:45:22,354 - root - INFO - Train Epoch: 1 [1000/1154 (87%)]	Loss: 0.066141
+2023-12-14 02:46:36,258 - root - INFO - Train Epoch: 1 [1100/1154 (95%)]	Loss: -0.105696
+2023-12-14 02:47:06,231 - root - INFO - Training loss in iteration 9 epoch 1 is 0.05033531646200648
+2023-12-14 03:22:32,099 - root - INFO - Iteration 9 Epoch 1 Mean IC: 0.12491707165845432, Mean Rank IC: 0.10717616819445629, Eval loss 0.3610035022181913
+2023-12-14 03:22:45,514 - root - INFO - Train Epoch: 2 [0/1154 (0%)]	Loss: 0.245042
+2023-12-14 03:23:43,003 - root - INFO - Train Epoch: 2 [100/1154 (9%)]	Loss: -0.030742
+2023-12-14 03:24:36,147 - root - INFO - Train Epoch: 2 [200/1154 (17%)]	Loss: 0.105135
+2023-12-14 03:25:29,146 - root - INFO - Train Epoch: 2 [300/1154 (26%)]	Loss: -0.044911
+2023-12-14 03:26:22,500 - root - INFO - Train Epoch: 2 [400/1154 (35%)]	Loss: 0.324819
+2023-12-14 03:27:15,527 - root - INFO - Train Epoch: 2 [500/1154 (43%)]	Loss: 0.181106
+2023-12-14 03:28:17,680 - root - INFO - Train Epoch: 2 [600/1154 (52%)]	Loss: 0.073916
+2023-12-14 03:29:28,085 - root - INFO - Train Epoch: 2 [700/1154 (61%)]	Loss: -0.092101
+2023-12-14 03:30:39,401 - root - INFO - Train Epoch: 2 [800/1154 (69%)]	Loss: 0.020289
+2023-12-14 03:31:49,281 - root - INFO - Train Epoch: 2 [900/1154 (78%)]	Loss: -0.141794
+2023-12-14 03:33:01,417 - root - INFO - Train Epoch: 2 [1000/1154 (87%)]	Loss: 0.091403
+2023-12-14 03:34:09,046 - root - INFO - Train Epoch: 2 [1100/1154 (95%)]	Loss: 0.159004
+2023-12-14 03:34:45,008 - root - INFO - Training loss in iteration 9 epoch 2 is 0.04525549472850365
+2023-12-14 04:11:42,776 - root - INFO - Iteration 9 Epoch 2 Mean IC: 0.12643981598772702, Mean Rank IC: 0.11202503259942918, Eval loss 0.30067366380090554
+2023-12-14 04:11:54,782 - root - INFO - Train Epoch: 3 [0/1154 (0%)]	Loss: 0.228712
+2023-12-14 04:12:48,368 - root - INFO - Train Epoch: 3 [100/1154 (9%)]	Loss: 0.032924
+2023-12-14 04:13:40,228 - root - INFO - Train Epoch: 3 [200/1154 (17%)]	Loss: -0.088088
+2023-12-14 04:14:31,626 - root - INFO - Train Epoch: 3 [300/1154 (26%)]	Loss: 0.124769
+2023-12-14 04:15:22,714 - root - INFO - Train Epoch: 3 [400/1154 (35%)]	Loss: 0.037789
+2023-12-14 04:16:16,243 - root - INFO - Train Epoch: 3 [500/1154 (43%)]	Loss: -0.070275
+2023-12-14 04:17:10,398 - root - INFO - Train Epoch: 3 [600/1154 (52%)]	Loss: -0.216433
+2023-12-14 04:18:03,485 - root - INFO - Train Epoch: 3 [700/1154 (61%)]	Loss: 0.249685
+2023-12-14 04:18:56,460 - root - INFO - Train Epoch: 3 [800/1154 (69%)]	Loss: 0.029698
+2023-12-14 04:19:49,857 - root - INFO - Train Epoch: 3 [900/1154 (78%)]	Loss: 0.014787
+2023-12-14 04:20:43,066 - root - INFO - Train Epoch: 3 [1000/1154 (87%)]	Loss: 0.146294
+2023-12-14 04:21:36,098 - root - INFO - Train Epoch: 3 [1100/1154 (95%)]	Loss: -0.167194
+2023-12-14 04:22:04,348 - root - INFO - Training loss in iteration 9 epoch 3 is 0.049140271825951556
+2023-12-14 04:58:47,805 - root - INFO - Iteration 9 Epoch 3 Mean IC: 0.12845305008101776, Mean Rank IC: 0.11314793473132694, Eval loss 0.31130661248914465
+2023-12-14 04:59:01,461 - root - INFO - Train Epoch: 4 [0/1154 (0%)]	Loss: 0.146515
+2023-12-14 04:59:58,639 - root - INFO - Train Epoch: 4 [100/1154 (9%)]	Loss: 0.105294
+2023-12-14 05:00:53,124 - root - INFO - Train Epoch: 4 [200/1154 (17%)]	Loss: -0.143671
+2023-12-14 05:01:48,393 - root - INFO - Train Epoch: 4 [300/1154 (26%)]	Loss: 0.298499
+2023-12-14 05:02:43,307 - root - INFO - Train Epoch: 4 [400/1154 (35%)]	Loss: 0.140808
+2023-12-14 05:03:38,471 - root - INFO - Train Epoch: 4 [500/1154 (43%)]	Loss: 0.078961
+2023-12-14 05:04:33,044 - root - INFO - Train Epoch: 4 [600/1154 (52%)]	Loss: -0.064266
+2023-12-14 05:05:27,682 - root - INFO - Train Epoch: 4 [700/1154 (61%)]	Loss: -0.086350
+2023-12-14 05:06:22,578 - root - INFO - Train Epoch: 4 [800/1154 (69%)]	Loss: -0.066433
+2023-12-14 05:07:16,443 - root - INFO - Train Epoch: 4 [900/1154 (78%)]	Loss: 0.068378
+2023-12-14 05:08:08,593 - root - INFO - Train Epoch: 4 [1000/1154 (87%)]	Loss: 0.174500
+2023-12-14 05:09:01,558 - root - INFO - Train Epoch: 4 [1100/1154 (95%)]	Loss: 0.102678
+2023-12-14 05:09:29,013 - root - INFO - Training loss in iteration 9 epoch 4 is 0.045951758232129096
+2023-12-14 05:45:23,492 - root - INFO - Iteration 9 Epoch 4 Mean IC: 0.1331723013169744, Mean Rank IC: 0.1214561539323046, Eval loss 0.2856728347741868
+2023-12-14 05:45:37,640 - root - INFO - Train Epoch: 5 [0/1154 (0%)]	Loss: 0.207054
+2023-12-14 05:46:35,307 - root - INFO - Train Epoch: 5 [100/1154 (9%)]	Loss: 0.098982
+2023-12-14 05:47:30,034 - root - INFO - Train Epoch: 5 [200/1154 (17%)]	Loss: 0.022990
+2023-12-14 05:48:25,358 - root - INFO - Train Epoch: 5 [300/1154 (26%)]	Loss: 0.076743
+2023-12-14 05:49:19,636 - root - INFO - Train Epoch: 5 [400/1154 (35%)]	Loss: 0.068213
+2023-12-14 05:50:14,401 - root - INFO - Train Epoch: 5 [500/1154 (43%)]	Loss: 0.081159
+2023-12-14 05:51:08,922 - root - INFO - Train Epoch: 5 [600/1154 (52%)]	Loss: 0.242897
+2023-12-14 05:52:03,805 - root - INFO - Train Epoch: 5 [700/1154 (61%)]	Loss: -0.116666
+2023-12-14 05:52:59,129 - root - INFO - Train Epoch: 5 [800/1154 (69%)]	Loss: 0.155137
+2023-12-14 05:53:54,419 - root - INFO - Train Epoch: 5 [900/1154 (78%)]	Loss: 0.245490
+2023-12-14 05:54:49,012 - root - INFO - Train Epoch: 5 [1000/1154 (87%)]	Loss: -0.185278
+2023-12-14 05:55:43,759 - root - INFO - Train Epoch: 5 [1100/1154 (95%)]	Loss: -0.057895
+2023-12-14 05:56:13,111 - root - INFO - Training loss in iteration 9 epoch 5 is 0.04595543880603136
+2023-12-14 06:32:28,914 - root - INFO - Iteration 9 Epoch 5 Mean IC: 0.12766425456170546, Mean Rank IC: 0.11143552443350055, Eval loss 0.3314828330204507
+2023-12-14 06:32:38,034 - root - INFO - Train Epoch: 6 [0/1154 (0%)]	Loss: 0.024084
+2023-12-14 06:33:32,172 - root - INFO - Train Epoch: 6 [100/1154 (9%)]	Loss: -0.035626
+2023-12-14 06:34:23,463 - root - INFO - Train Epoch: 6 [200/1154 (17%)]	Loss: -0.107965
+2023-12-14 06:35:16,224 - root - INFO - Train Epoch: 6 [300/1154 (26%)]	Loss: 0.059181
+2023-12-14 06:36:08,402 - root - INFO - Train Epoch: 6 [400/1154 (35%)]	Loss: -0.212978
+2023-12-14 06:37:00,553 - root - INFO - Train Epoch: 6 [500/1154 (43%)]	Loss: -0.077502
+2023-12-14 06:37:52,681 - root - INFO - Train Epoch: 6 [600/1154 (52%)]	Loss: 0.164601
+2023-12-14 06:38:44,155 - root - INFO - Train Epoch: 6 [700/1154 (61%)]	Loss: 0.164334
+2023-12-14 06:39:35,805 - root - INFO - Train Epoch: 6 [800/1154 (69%)]	Loss: -0.025625
+2023-12-14 06:40:27,590 - root - INFO - Train Epoch: 6 [900/1154 (78%)]	Loss: 0.300353
+2023-12-14 06:41:19,865 - root - INFO - Train Epoch: 6 [1000/1154 (87%)]	Loss: -0.139426
+2023-12-14 06:42:12,529 - root - INFO - Train Epoch: 6 [1100/1154 (95%)]	Loss: 0.132579
+2023-12-14 06:42:40,168 - root - INFO - Training loss in iteration 9 epoch 6 is 0.04352640941661606
+2023-12-14 07:19:23,824 - root - INFO - Iteration 9 Epoch 6 Mean IC: 0.12430709135268377, Mean Rank IC: 0.10804739935912408, Eval loss 0.327331733358793
+2023-12-14 07:19:38,888 - root - INFO - Train Epoch: 7 [0/1154 (0%)]	Loss: 0.207624
+2023-12-14 07:20:35,448 - root - INFO - Train Epoch: 7 [100/1154 (9%)]	Loss: 0.265134
+2023-12-14 07:21:30,121 - root - INFO - Train Epoch: 7 [200/1154 (17%)]	Loss: -0.015239
+2023-12-14 07:22:23,820 - root - INFO - Train Epoch: 7 [300/1154 (26%)]	Loss: 0.210845
+2023-12-14 07:23:15,941 - root - INFO - Train Epoch: 7 [400/1154 (35%)]	Loss: 0.126310
+2023-12-14 07:24:08,100 - root - INFO - Train Epoch: 7 [500/1154 (43%)]	Loss: -0.164473
+2023-12-14 07:25:00,295 - root - INFO - Train Epoch: 7 [600/1154 (52%)]	Loss: 0.225484
+2023-12-14 07:25:52,207 - root - INFO - Train Epoch: 7 [700/1154 (61%)]	Loss: 0.162533
+2023-12-14 07:26:44,056 - root - INFO - Train Epoch: 7 [800/1154 (69%)]	Loss: -0.144237
+2023-12-14 07:27:36,254 - root - INFO - Train Epoch: 7 [900/1154 (78%)]	Loss: -0.031919
+2023-12-14 07:28:28,182 - root - INFO - Train Epoch: 7 [1000/1154 (87%)]	Loss: 0.143973
+2023-12-14 07:29:20,590 - root - INFO - Train Epoch: 7 [1100/1154 (95%)]	Loss: 0.149936
+2023-12-14 07:29:48,303 - root - INFO - Training loss in iteration 9 epoch 7 is 0.047833038716733556
+2023-12-14 08:05:26,569 - root - INFO - Iteration 9 Epoch 7 Mean IC: 0.1307686656243976, Mean Rank IC: 0.11484068760567552, Eval loss 0.30696717298720494
+2023-12-14 08:05:47,681 - root - INFO - Train Epoch: 8 [0/1154 (0%)]	Loss: -0.188888
+2023-12-14 08:07:02,916 - root - INFO - Train Epoch: 8 [100/1154 (9%)]	Loss: -0.132913
+2023-12-14 08:08:13,591 - root - INFO - Train Epoch: 8 [200/1154 (17%)]	Loss: 0.078157
+2023-12-14 08:09:24,499 - root - INFO - Train Epoch: 8 [300/1154 (26%)]	Loss: -0.080835
+2023-12-14 08:10:36,698 - root - INFO - Train Epoch: 8 [400/1154 (35%)]	Loss: -0.026810
+2023-12-14 08:11:45,518 - root - INFO - Train Epoch: 8 [500/1154 (43%)]	Loss: 0.123462
+2023-12-14 08:12:56,403 - root - INFO - Train Epoch: 8 [600/1154 (52%)]	Loss: 0.083629
+2023-12-14 08:14:06,719 - root - INFO - Train Epoch: 8 [700/1154 (61%)]	Loss: 0.180442
+2023-12-14 08:15:18,216 - root - INFO - Train Epoch: 8 [800/1154 (69%)]	Loss: 0.197814
+2023-12-14 08:16:27,859 - root - INFO - Train Epoch: 8 [900/1154 (78%)]	Loss: 0.112309
+2023-12-14 08:17:39,009 - root - INFO - Train Epoch: 8 [1000/1154 (87%)]	Loss: 0.147587
+2023-12-14 08:18:49,517 - root - INFO - Train Epoch: 8 [1100/1154 (95%)]	Loss: 0.087312
+2023-12-14 08:19:26,240 - root - INFO - Training loss in iteration 9 epoch 8 is 0.044122898683236
+2023-12-14 08:55:23,801 - root - INFO - Iteration 9 Epoch 8 Mean IC: 0.13112374089650083, Mean Rank IC: 0.11453328421267234, Eval loss 0.2977772837828013
+2023-12-14 08:55:33,918 - root - INFO - Train Epoch: 9 [0/1154 (0%)]	Loss: 0.181610
+2023-12-14 08:56:27,626 - root - INFO - Train Epoch: 9 [100/1154 (9%)]	Loss: 0.122920
+2023-12-14 08:57:19,509 - root - INFO - Train Epoch: 9 [200/1154 (17%)]	Loss: -0.153046
+2023-12-14 08:58:10,082 - root - INFO - Train Epoch: 9 [300/1154 (26%)]	Loss: 0.106109
+2023-12-14 08:59:01,350 - root - INFO - Train Epoch: 9 [400/1154 (35%)]	Loss: 0.222853
+2023-12-14 08:59:53,758 - root - INFO - Train Epoch: 9 [500/1154 (43%)]	Loss: -0.021849
+2023-12-14 09:00:45,949 - root - INFO - Train Epoch: 9 [600/1154 (52%)]	Loss: -0.087303
+2023-12-14 09:01:38,828 - root - INFO - Train Epoch: 9 [700/1154 (61%)]	Loss: 0.042270
+2023-12-14 09:02:31,035 - root - INFO - Train Epoch: 9 [800/1154 (69%)]	Loss: -0.071119
+2023-12-14 09:03:23,143 - root - INFO - Train Epoch: 9 [900/1154 (78%)]	Loss: 0.127937
+2023-12-14 09:04:15,400 - root - INFO - Train Epoch: 9 [1000/1154 (87%)]	Loss: 0.214659
+2023-12-14 09:05:07,656 - root - INFO - Train Epoch: 9 [1100/1154 (95%)]	Loss: 0.170918
+2023-12-14 09:05:35,343 - root - INFO - Training loss in iteration 9 epoch 9 is 0.04455206397940216
+2023-12-14 09:42:29,550 - root - INFO - Iteration 9 Epoch 9 Mean IC: 0.13757529486334413, Mean Rank IC: 0.12357461578075578, Eval loss 0.28430445874032895
